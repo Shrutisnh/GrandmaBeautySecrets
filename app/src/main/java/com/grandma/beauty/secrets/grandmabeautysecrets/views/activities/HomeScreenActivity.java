@@ -7,7 +7,6 @@ import android.support.v7.widget.RecyclerView;
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.BasePresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.HomeScreenPresenter;
-import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.MyFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IHomeView;
 
 public class HomeScreenActivity extends BaseActivity implements IHomeView{
