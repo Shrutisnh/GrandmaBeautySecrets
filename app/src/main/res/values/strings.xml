@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Grandma Beauty Secrets</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Eyes">Eyes</string>
+    <string name="Face">Face</string>
+    <string name="Hair">Hair</string>
+    <string name="Arms_Thighs">Arms and Thighs</string>
+    <string name="Nails">Nails</string>
+
+    <!--Eyes-->
+    <string name="Dark_Circles">Dark Circles</string>
+    <string name="Sunken_Eyes">Sunken Eyes</string>
+    <string name="Puffiness">Puffiness</string>
+    <string name="Beautiful_Eyes">Beautiful Eyes</string>
+    <string name="Eyebrows">Eyebrows To Grow</string>
+
+    <!--Face-->
+    <string name="Fair_Skin">Fair Skin</string>
+    <string name="Dark_Lips_Lightening">Dark Lips Lightening</string>
+    <string name="Blackheads_Removal">Blackheads Removal</string>
+    <string name="Face_Cleanser">Face Cleanser</string>
+    <string name="Blemishes_Correction">Blemishes reduction</string>
+    <string name="Face_Scrubber">Face Scrubber</string>
+    <string name="Acne_Treatment">Acne Correction</string>
+    <string name="Teeth_Whitening">Teeth Whitening</string>
+
+    <!--Hair-->
+    <string name="Split_Ends">Split Ends</string>
+    <string name="Dandruff_Treatment">Dandruff Treatment</string>
+    <string name="Grey_Hair">Grey Hair</string>
+    <string name="Natural_Hair_Conditioner">Natural Hair Conditioner</string>
+    <string name="Hair_Loss_Treatment">Hair Loss Treatment</string>
+    <string name="Head_Lice_Treatment">Head Lice Treatment</string>
+
+    <!--Arms & feet-->
+    <string name="Dark_Inner_Thigh">Dark Inner Thigh</string>
+    <string name="Dark_Underarms">Dark Underarms</string>
+    <string name="Dry_Rough_Hands">Dry &amp; Rough Hands</string>
+    <string name="Fair_Hands_Feet">Fair Hands &amp; Feet</string>
+    <string name="Hands_Feet_Tan_Removal">Tanning Removal Of Hands &amp; Feet</string>
+    <string name="Nail_Growth">Nail Growth</string>
+    <string name="Shiny_Nails">Shiny Nails</string>
+
+    <!--Skin-->
+    <string name="Prickly_Heat">Prickly Heat</string>
+    <string name="Stretch_Marks">Stretch Marks</string>
+    <string name="Warts">Warts</string>
+</resources>
