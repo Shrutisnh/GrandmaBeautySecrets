@@ -108,29 +108,6 @@
       ]
     },
     {
-      "Shiny Nails": [
-        {
-          "Ingredients": [
-            "3 spoons of sugar powder",
-            "2 spoons of butter"
-          ],
-          "Procedures": "Ensure you get at least 7 hours of sleep every day.\nBesides, it makes no harm if you take a small nap during the day not more than 30 minutes!"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedures": "Apply almond oil under the eyes several times a day.\nAlmond oil is rich in Vitamin E, a nourishing vitamin for skin."
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedures": "Slice the potato and place it on the affected spot for around 20 minutes.\nAlternatively, you can apply the juice of raw potato directly on the hollow spots."
-        }
-      ]
-    },
-    {
       "Dry and Rough Hands": [
         {
           "Ingredients": [
@@ -651,6 +628,29 @@
             "2 tablespoons of either olive, almond or vegetable oil"
           ],
           "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
+        }
+      ]
+    },
+    {
+      "Shiny Nails": [
+        {
+          "Ingredients": [
+            "3 spoons of sugar powder",
+            "2 spoons of butter"
+          ],
+          "Procedures": "Ensure you get at least 7 hours of sleep every day.\nBesides, it makes no harm if you take a small nap during the day not more than 30 minutes!"
+        },
+        {
+          "Ingredients": [
+            "Almond oil"
+          ],
+          "Procedures": "Apply almond oil under the eyes several times a day.\nAlmond oil is rich in Vitamin E, a nourishing vitamin for skin."
+        },
+        {
+          "Ingredients": [
+            "Potato"
+          ],
+          "Procedures": "Slice the potato and place it on the affected spot for around 20 minutes.\nAlternatively, you can apply the juice of raw potato directly on the hollow spots."
         }
       ]
     }
