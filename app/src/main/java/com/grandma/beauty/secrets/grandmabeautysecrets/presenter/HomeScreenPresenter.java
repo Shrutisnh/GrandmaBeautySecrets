@@ -17,7 +17,20 @@ public class HomeScreenPresenter extends BasePresenter {
 
     }
 
-    public void onTabSelected(int tab){
-
+    public void setTabStyle(){
+        homeView.setTabStyle();
     }
+
+    public void setMenuActionShare(){
+        homeView.setMenuActionShare();
+    }
+
+    public void setMenuActionRate(){
+        homeView.setMenuActionRate();
+    }
+
+    public void setDisplayRemedyList(int issueIndexId){
+        homeView.displayIssuesRemedyList(issueIndexId);
+    }
+
 }

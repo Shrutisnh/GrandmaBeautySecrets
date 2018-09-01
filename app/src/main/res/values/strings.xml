@@ -1,50 +1,67 @@
 <resources>
     <string name="app_name">Grandma Beauty Secrets</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_rate">Rate</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="Eyes">Eyes</string>
     <string name="Face">Face</string>
     <string name="Hair">Hair</string>
-    <string name="Arms_Thighs">Arms and Thighs</string>
-    <string name="Nails">Nails</string>
+    <string name="Arms_Legs">Arms &amp; Feet</string>
+    <string name="Skin">Skin</string>
 
     <!--Eyes-->
-    <string name="Dark_Circles">Dark Circles</string>
-    <string name="Sunken_Eyes">Sunken Eyes</string>
-    <string name="Puffiness">Puffiness</string>
-    <string name="Beautiful_Eyes">Beautiful Eyes</string>
-    <string name="Eyebrows">Eyebrows To Grow</string>
+    <string-array name="EyesIssues">
+        <item name="Dark_Circles">Dark Circles</item>
+        <item name="Sunken_Eyes">Sunken Eyes</item>
+        <item name="Puffiness">Puffiness</item>
+        <item name="Beautiful_Eyes">Beautiful Eyes</item>
+        <item name="Eyebrows">Eyebrows To Grow</item>
+    </string-array>
+
 
     <!--Face-->
-    <string name="Fair_Skin">Fair Skin</string>
-    <string name="Dark_Lips_Lightening">Dark Lips Lightening</string>
-    <string name="Blackheads_Removal">Blackheads Removal</string>
-    <string name="Face_Cleanser">Face Cleanser</string>
-    <string name="Blemishes_Correction">Blemishes reduction</string>
-    <string name="Face_Scrubber">Face Scrubber</string>
-    <string name="Acne_Treatment">Acne Correction</string>
-    <string name="Teeth_Whitening">Teeth Whitening</string>
+    <string-array name="Face">
+        <item name="Fair_Skin">Fair Skin</item>
+        <item name="Dark_Lips_Lightening">Dark Lips Lightening</item>
+        <item name="Blackheads_Removal">Blackheads Removal</item>
+        <item name="Face_Cleanser">Face Cleanser</item>
+        <item name="Blemishes_Correction">Blemishes reduction</item>
+        <item name="Face_Scrubber">Face Scrubber</item>
+        <item name="Acne_Treatment">Acne Correction</item>
+        <item name="Teeth_Whitening">Teeth Whitening</item>
+    </string-array>
 
     <!--Hair-->
-    <string name="Split_Ends">Split Ends</string>
-    <string name="Dandruff_Treatment">Dandruff Treatment</string>
-    <string name="Grey_Hair">Grey Hair</string>
-    <string name="Natural_Hair_Conditioner">Natural Hair Conditioner</string>
-    <string name="Hair_Loss_Treatment">Hair Loss Treatment</string>
-    <string name="Head_Lice_Treatment">Head Lice Treatment</string>
+    <string-array name="Hair">
+        <item name="Split_Ends">Split Ends</item>
+        <item name="Dandruff_Treatment">Dandruff Treatment</item>
+        <item name="Grey_Hair">Grey Hair</item>
+        <item name="Natural_Hair_Conditioner">Natural Hair Conditioner</item>
+        <item name="Hair_Loss_Treatment">Hair Loss Treatment</item>
+        <item name="Head_Lice_Treatment">Head Lice Treatment</item>
+    </string-array>
 
     <!--Arms & feet-->
-    <string name="Dark_Inner_Thigh">Dark Inner Thigh</string>
-    <string name="Dark_Underarms">Dark Underarms</string>
-    <string name="Dry_Rough_Hands">Dry &amp; Rough Hands</string>
-    <string name="Fair_Hands_Feet">Fair Hands &amp; Feet</string>
-    <string name="Hands_Feet_Tan_Removal">Tanning Removal Of Hands &amp; Feet</string>
-    <string name="Nail_Growth">Nail Growth</string>
-    <string name="Shiny_Nails">Shiny Nails</string>
+    <string-array name="ArmsFeet">
+        <item name="Dark_Inner_Thigh">Dark Inner Thigh</item>
+        <item name="Dark_Underarms">Dark Underarms</item>
+        <item name="Dry_Rough_Hands">Dry &amp; Rough Hands</item>
+        <item name="Fair_Hands_Feet">Fair Hands &amp; Feet</item>
+        <item name="Hands_Feet_Tan_Removal">Tanning Removal Of Hands &amp; Feet</item>
+        <item name="Nail_Growth">Nail Growth</item>
+        <item name="Shiny_Nails">Shiny Nails</item>
+    </string-array>
+
 
     <!--Skin-->
-    <string name="Prickly_Heat">Prickly Heat</string>
-    <string name="Stretch_Marks">Stretch Marks</string>
-    <string name="Warts">Warts</string>
+    <string-array name="Skin">
+        <item name="Prickly_Heat">Prickly Heat</item>
+        <item name="Stretch_Marks">Stretch Marks</item>
+        <item name="Warts">Warts</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

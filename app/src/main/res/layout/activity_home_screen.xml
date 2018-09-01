@@ -8,48 +8,51 @@
     tools:context=".views.activities.HomeScreenActivity">
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/tabLayout"
+        android:id="@+id/tl_parts"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabSelectedTextColor="@color/colorPrimaryDark"
-        app:tabTextColor="@color/colorAccent"
-        app:tabTextAppearance="@style/TabLayoutTextAppearance">
+        android:layout_height="@dimen/tab_height"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabSelectedTextColor="@android:color/black"
+        app:tabTextAppearance="@style/TabLayoutTextAppearance"
+        app:tabTextColor="@android:color/black">
 
         <android.support.design.widget.TabItem
+            android:id="@+id/ti_eyes"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Eyes" />
+            android:layout_height="match_parent"
+            android:text="@string/Eyes"/>
 
         <android.support.design.widget.TabItem
+            android:id="@+id/ti_face"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Face" />
+            android:layout_height="match_parent"
+            android:text="@string/Face"/>
 
         <android.support.design.widget.TabItem
+            android:id="@+id/ti_hair"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Hair" />
+            android:layout_height="match_parent"
+            android:text="@string/Hair"/>
 
         <android.support.design.widget.TabItem
+            android:id="@+id/ti_ArmsLegs"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Arms_Thighs" />
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:text="@string/Arms_Legs"/>
 
         <android.support.design.widget.TabItem
+            android:id="@+id/ti_skin"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Nails" />
+            android:layout_height="match_parent"
+            android:text="@string/Skin"/>
 
     </android.support.design.widget.TabLayout>
+
     <android.support.v4.view.ViewPager
+        android:id="@+id/vpPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <android.support.v7.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/recyclerView">
-        </android.support.v7.widget.RecyclerView>
+        android:layout_height="match_parent">
+
     </android.support.v4.view.ViewPager>
-
-
 </LinearLayout>

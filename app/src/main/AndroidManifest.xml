@@ -8,8 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/SplashTheme">
-        <activity android:name=".views.activities.SplashActivity">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".views.activities.SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,11 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".views.activities.HomeScreenActivity" />
-        <activity
-            android:name=".views.activities.Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/SplashTheme"></activity>
-
+        <activity android:name=".views.activities.DisplayRemediesActivity"></activity>
     </application>
 
 </manifest>
