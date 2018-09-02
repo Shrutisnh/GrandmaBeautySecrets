@@ -24,17 +24,13 @@ public class DisplayRemedyFragment extends Fragment {
     private static final String ARG_BODY_INDEX = "bodyIndex";
     private static final String ARG_ISSUE_INDEX = "issueIndex";
 
-
     private int bodyIndex;
     private int issueIndex;
-
-    private OnFragmentInteractionListener mListener;
+    private OnFragmentInteractionListener listener;
 
     public DisplayRemedyFragment() {
 
     }
-
-
 
     public static DisplayRemedyFragment newInstance(int bodyIndex, int issueIndex) {
         DisplayRemedyFragment fragment = new DisplayRemedyFragment();
@@ -68,7 +64,7 @@ public class DisplayRemedyFragment extends Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
+            listener = (OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");
@@ -78,7 +74,7 @@ public class DisplayRemedyFragment extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
-        mListener = null;
+        listener = null;
     }
 
     /**
