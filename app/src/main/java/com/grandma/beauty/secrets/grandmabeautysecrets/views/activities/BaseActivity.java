@@ -1,9 +1,8 @@
 package com.grandma.beauty.secrets.grandmabeautysecrets.views.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.BasePresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IBaseView;
 

@@ -4,23 +4,28 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-/**
- * Created by 1305254 on 30-08-2018.
- */
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
+import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyFragment;
+
+import java.util.ArrayList;
 
 public class DisplayRemedyViewPagerAdapter extends FragmentPagerAdapter
 {
-    public DisplayRemedyViewPagerAdapter(FragmentManager fm) {
+    int bodyIndex;
+    ArrayList<Issues> remedyList;
+    public DisplayRemedyViewPagerAdapter(FragmentManager fm, int bodyIndex, ArrayList<Issues> remedyList) {
         super(fm);
+        this.bodyIndex = bodyIndex;
+        this.remedyList = remedyList;
     }
 
     @Override
     public Fragment getItem(int position) {
-        return null;
+        return DisplayRemedyFragment.newInstance(bodyIndex,position);
     }
 
     @Override
     public int getCount() {
-        return 0;
+        return remedyList.size();
     }
 }

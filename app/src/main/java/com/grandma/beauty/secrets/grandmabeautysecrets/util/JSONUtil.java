@@ -6,9 +6,7 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.model.ArmsFeet;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Eyes;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Face;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Hair;
-import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Skin;
-
 
 import java.io.IOException;
 import java.io.InputStream;

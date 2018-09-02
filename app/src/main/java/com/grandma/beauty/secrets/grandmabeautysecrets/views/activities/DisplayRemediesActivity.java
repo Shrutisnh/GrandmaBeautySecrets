@@ -5,9 +5,12 @@ import android.support.v4.app.FragmentTransaction;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.constants.AppConstants;
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.DisplayRemediesPresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IDisplayRemedy;
+
+import java.util.ArrayList;
 
 public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy {
 
@@ -33,5 +36,11 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.add(R.id.frame_container, displayRemedyFragment).commit();
 
+    }
+
+    @Override
+    public ArrayList<Issues> getRemedyList(int bodyIndex, int issueIndex) {
+      ArrayList<Issues> remedyList=displayRemediesPresenter.getEyesRemediesList(bodyIndex,issueIndex);
+      return remedyList;
     }
 }
