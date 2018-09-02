@@ -9,16 +9,17 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.DisplayRemedies
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IDisplayRemedy;
 
-public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy{
+public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy {
 
     DisplayRemediesPresenter displayRemediesPresenter;
-    int bodyIndex,issueIndex;
+    int bodyIndex, issueIndex;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        displayRemediesPresenter=new DisplayRemediesPresenter(this);
-        bodyIndex = getIntent().getIntExtra(AppConstants.BODY_INDEX,0);
-        issueIndex = getIntent().getIntExtra(AppConstants.ISSUE_INDEX,0);
+        displayRemediesPresenter = new DisplayRemediesPresenter(this);
+        bodyIndex = getIntent().getIntExtra(AppConstants.BODY_INDEX, 0);
+        issueIndex = getIntent().getIntExtra(AppConstants.ISSUE_INDEX, 0);
     }
 
     @Override
@@ -28,9 +29,9 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
 
     @Override
     public void hostFragment() {
-        DisplayRemedyFragment displayRemedyFragment = DisplayRemedyFragment.newInstance(bodyIndex,issueIndex);
+        DisplayRemedyFragment displayRemedyFragment = DisplayRemedyFragment.newInstance(bodyIndex, issueIndex);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.add(R.id.frame_container,displayRemedyFragment).commit();
+        transaction.add(R.id.frame_container, displayRemedyFragment).commit();
 
     }
 }

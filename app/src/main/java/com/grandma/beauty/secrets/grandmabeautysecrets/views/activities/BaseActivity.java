@@ -7,7 +7,7 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.BasePresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IBaseView;
 
-public abstract class BaseActivity extends AppCompatActivity implements IBaseView{
+public abstract class BaseActivity extends AppCompatActivity implements IBaseView {
     protected BasePresenter basePresenter;
 
     @Override
@@ -19,10 +19,10 @@ public abstract class BaseActivity extends AppCompatActivity implements IBaseVie
             basePresenter.onCreate(this);
         }
     }
+
     public BasePresenter getPresenter() {
         return basePresenter;
     }
-
 
     public abstract int getActivityLayout();
 

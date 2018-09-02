@@ -10,7 +10,7 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.BasePresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.SplashPresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.ISplashView;
 
-public class SplashActivity extends BaseActivity implements ISplashView{
+public class SplashActivity extends BaseActivity implements ISplashView {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +39,7 @@ public class SplashActivity extends BaseActivity implements ISplashView{
 
     @Override
     public void loadHomeScreen() {
-        Intent loadHomeScreen = new Intent(this,HomeScreenActivity.class);
+        Intent loadHomeScreen = new Intent(this, HomeScreenActivity.class);
         startActivity(loadHomeScreen);
         finish();
     }

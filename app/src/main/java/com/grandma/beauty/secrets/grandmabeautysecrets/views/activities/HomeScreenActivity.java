@@ -17,7 +17,7 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRe
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.ViewPagerFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IHomeView;
 
-public class HomeScreenActivity extends BaseActivity implements IHomeView,ViewPagerFragment.OnFragmentInteractionListener{
+public class HomeScreenActivity extends BaseActivity implements IHomeView, ViewPagerFragment.OnFragmentInteractionListener {
 
     HomeScreenPresenter homePresenter;
     ViewPager viewPager;
@@ -28,7 +28,7 @@ public class HomeScreenActivity extends BaseActivity implements IHomeView,ViewPa
         super.onCreate(savedInstanceState);
         homePresenter = new HomeScreenPresenter(this);
         viewPager = findViewById(R.id.vpPager);
-        adapter = new ViewPagerAdapter(HomeScreenActivity.this,getSupportFragmentManager());
+        adapter = new ViewPagerAdapter(HomeScreenActivity.this, getSupportFragmentManager());
         homePresenter.setTabStyle();
     }
 
@@ -47,7 +47,7 @@ public class HomeScreenActivity extends BaseActivity implements IHomeView,ViewPa
     public void setTabStyle() {
         viewPager.setAdapter(adapter);
         TabLayout tabLayout = findViewById(R.id.tl_parts);
-        tabLayout.setupWithViewPager(viewPager,true);
+        tabLayout.setupWithViewPager(viewPager, true);
     }
 
     @Override
@@ -57,12 +57,12 @@ public class HomeScreenActivity extends BaseActivity implements IHomeView,ViewPa
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu,menu);
+        getMenuInflater().inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
-    public void setMenuActionShare(){
+    public void setMenuActionShare() {
         //TODO: Set below details for this application
 //        Intent shareIntent = new Intent(Intent.ACTION_VIEW);
 //        Uri.Builder uriBuilder = Uri.parse("https://play.google.com/store/apps/details")
@@ -80,8 +80,8 @@ public class HomeScreenActivity extends BaseActivity implements IHomeView,ViewPa
     public void displayIssuesRemedyList(int issueIndexId) {
         Intent displayRemediesIntent = new Intent(this, DisplayRemediesActivity.class);
         int bodyIndex = viewPager.getCurrentItem();
-        displayRemediesIntent.putExtra(AppConstants.BODY_INDEX,bodyIndex);
-        displayRemediesIntent.putExtra(AppConstants.ISSUE_INDEX,issueIndexId);
+        displayRemediesIntent.putExtra(AppConstants.BODY_INDEX, bodyIndex);
+        displayRemediesIntent.putExtra(AppConstants.ISSUE_INDEX, issueIndexId);
         startActivity(displayRemediesIntent);
 
     }
@@ -90,16 +90,17 @@ public class HomeScreenActivity extends BaseActivity implements IHomeView,ViewPa
     public void setMenuActionRate() {
 //TODO: write code for rating app on play store
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.action_share:
                 homePresenter.setMenuActionShare();
                 break;
             case R.id.action_rate:
                 homePresenter.setMenuActionRate();
                 break;
-                default:
+            default:
         }
         return super.onOptionsItemSelected(item);
     }
