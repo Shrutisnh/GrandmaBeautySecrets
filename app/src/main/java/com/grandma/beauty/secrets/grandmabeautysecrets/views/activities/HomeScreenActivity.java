@@ -26,7 +26,6 @@ public class HomeScreenActivity extends BaseActivity implements IHomeView, ViewP
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        homePresenter = new HomeScreenPresenter(this);
         viewPager = findViewById(R.id.vpPager);
         adapter = new ViewPagerAdapter(HomeScreenActivity.this, getSupportFragmentManager());
         homePresenter.setTabStyle();
@@ -39,6 +38,7 @@ public class HomeScreenActivity extends BaseActivity implements IHomeView, ViewP
 
     @Override
     protected BasePresenter onCreateActivityPresenter() {
+        homePresenter = new HomeScreenPresenter(this);
         return homePresenter;
     }
 

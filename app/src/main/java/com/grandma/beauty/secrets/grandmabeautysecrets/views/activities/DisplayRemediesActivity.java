@@ -1,5 +1,6 @@
 package com.grandma.beauty.secrets.grandmabeautysecrets.views.activities;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 
@@ -12,7 +13,7 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IDisplay
 
 import java.util.ArrayList;
 
-public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy {
+public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy,DisplayRemedyFragment.OnFragmentInteractionListener {
 
     DisplayRemediesPresenter displayRemediesPresenter;
     int bodyIndex, issueIndex;
@@ -42,5 +43,10 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
     public ArrayList<Issues> getRemedyList(int bodyIndex, int issueIndex) {
       ArrayList<Issues> remedyList=displayRemediesPresenter.getEyesRemediesList(bodyIndex,issueIndex);
       return remedyList;
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
     }
 }
