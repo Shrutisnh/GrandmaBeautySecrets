@@ -4,18 +4,12 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
-import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
-import com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.DisplayRemediesActivity;
-import com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters.DisplayRemedyViewPagerAdapter;
-
-import java.util.ArrayList;
 
 public class DisplayRemedyFragment extends Fragment {
 
