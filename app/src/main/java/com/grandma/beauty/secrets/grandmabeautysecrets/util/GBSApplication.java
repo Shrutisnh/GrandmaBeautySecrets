@@ -5,7 +5,8 @@ import android.content.Context;
 
 
 public class GBSApplication extends Application {
-    public static Context getContext(){
-        return getContext();
-    }
+    Context context;
+//    public static Context getContext(){
+//        return getContext();
+//    }
 }

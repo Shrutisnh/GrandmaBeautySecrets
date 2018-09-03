@@ -11,20 +11,11 @@ import android.view.ViewGroup;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
-import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.DisplayRemediesPresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.DisplayRemediesActivity;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters.DisplayRemedyViewPagerAdapter;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link DisplayRemedyFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link DisplayRemedyFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class DisplayRemedyFragment extends Fragment {
 
     private static final String ARG_BODY_INDEX = "bodyIndex";
@@ -63,13 +54,13 @@ public class DisplayRemedyFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.display_remedy_view, container, false);
+        View view = inflater.inflate(R.layout.display_remedy_view_pager, container, false);
         ViewPager viewPager = view.findViewById(R.id.vp_displayRemedy);
         ArrayList<Issues> remedyList=((DisplayRemediesActivity)mListener).getRemedyList(bodyIndex,issueIndex);
         DisplayRemedyViewPagerAdapter adapter = new DisplayRemedyViewPagerAdapter(getActivity().getSupportFragmentManager(),bodyIndex,remedyList);
         viewPager.setAdapter(adapter);
 
-        return inflater.inflate(R.layout.display_remedy_view, container, false);
+        return view;
     }
 
 

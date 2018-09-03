@@ -13,7 +13,6 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.constants.AppConstants;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.BasePresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.HomeScreenPresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters.ViewPagerAdapter;
-import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.ViewPagerFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IHomeView;
 

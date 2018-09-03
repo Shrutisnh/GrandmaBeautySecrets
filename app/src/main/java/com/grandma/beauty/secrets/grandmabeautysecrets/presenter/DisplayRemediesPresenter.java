@@ -26,19 +26,19 @@ public class DisplayRemediesPresenter extends BaseActivityPresenter {
     public Object getBodyIssueRemedyObject(int bodyIndex){
        switch (bodyIndex){
            case 0:
-               Eyes eyesObject = (Eyes) JSONUtil.parseJsonResponse(bodyIndex);
+               Eyes eyesObject = (Eyes)displayRemedyView.getBodyIssueRemedyObject(bodyIndex);
                return eyesObject;
            case 1:
-               Face faceObject = (Face) JSONUtil.parseJsonResponse(bodyIndex);
+               Face faceObject = (Face) displayRemedyView.getBodyIssueRemedyObject(bodyIndex);
                return faceObject;
            case 2:
-               Hair hairObject = (Hair)JSONUtil.parseJsonResponse(bodyIndex);
+               Hair hairObject = (Hair)displayRemedyView.getBodyIssueRemedyObject(bodyIndex);
                return hairObject;
            case 3:
-               ArmsFeet armsFeetObject = (ArmsFeet)JSONUtil.parseJsonResponse(bodyIndex);
+               ArmsFeet armsFeetObject = (ArmsFeet)displayRemedyView.getBodyIssueRemedyObject(bodyIndex);
                return armsFeetObject;
            case 4:
-               Skin skinObject = (Skin)JSONUtil.parseJsonResponse(bodyIndex);
+               Skin skinObject = (Skin)displayRemedyView.getBodyIssueRemedyObject(bodyIndex);
                return skinObject;
        }
        return null;

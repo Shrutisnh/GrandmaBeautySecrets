@@ -7,4 +7,5 @@ import java.util.List;
 public interface IDisplayRemedy extends IBaseView {
      void hostFragment();
      List<Issues> getRemedyList(int bodyIndex, int issueIndex);
+     Object getBodyIssueRemedyObject(int bodyIssue);
 }

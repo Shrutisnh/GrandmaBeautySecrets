@@ -1,5 +1,7 @@
 package com.grandma.beauty.secrets.grandmabeautysecrets.util;
 
+import android.content.Context;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.ArmsFeet;
@@ -11,11 +13,24 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.model.Skin;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class JSONUtil {
+public  class JSONUtil {
+     public static Context context;
+      static JSONUtil jsonUtil;
+
+    public static JSONUtil getInstance(Context cntx){
+        context =cntx;
+        if(jsonUtil==null) {
+            jsonUtil = new JSONUtil();
+            return jsonUtil;
+        }
+        else
+            return jsonUtil;
+    }
+
     public static String getResponseData(int bodyIndex) {
         String json = null;
         try {
-            InputStream inputStream = GBSApplication.getContext().getResources().getAssets().open(getFilename(bodyIndex));
+            InputStream inputStream = context.getAssets().open(getFilename(bodyIndex));
             int size = inputStream.available();
             byte[] buffer = new byte[size];
             inputStream.read(buffer);
@@ -32,19 +47,19 @@ public class JSONUtil {
         String filename = new String();
         switch (bodyIndex) {
             case 0:
-                filename = "/data/Eyes.json";
+                filename = "Eyes.json";
                 break;
             case 1:
-                filename = "/data/Face.json";
+                filename = "Face.json";
                 break;
             case 2:
-                filename = "/data/Hair.json";
+                filename = "Hair.json";
                 break;
             case 3:
-                filename = "/data/ArmsFeet.json";
+                filename = "ArmsFeet.json";
                 break;
             case 4:
-                filename = "/data/Skin.json";
+                filename = "Skin.json";
                 break;
         }
         return filename;
