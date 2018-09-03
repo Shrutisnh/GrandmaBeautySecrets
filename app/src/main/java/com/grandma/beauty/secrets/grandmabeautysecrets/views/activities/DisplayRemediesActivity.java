@@ -15,12 +15,12 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.model.Skin;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.BasePresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.DisplayRemediesPresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.util.JSONUtil;
-import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyFragment;
+import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyViewPagerFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IDisplayRemedy;
 
 import java.util.ArrayList;
 
-public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy, DisplayRemedyFragment.OnFragmentInteractionListener {
+public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy, DisplayRemedyViewPagerFragment.OnFragmentInteractionListener {
 
     DisplayRemediesPresenter displayRemediesPresenter;
     int bodyIndex, issueIndex;
@@ -30,18 +30,6 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
         super.onCreate(savedInstanceState);
         bodyIndex = getIntent().getIntExtra(AppConstants.BODY_INDEX, 0);
         issueIndex = getIntent().getIntExtra(AppConstants.ISSUE_INDEX, 0);
-
-//        try {
-//            InputStream inputStream = getAssets().open("Eyes.json");
-//            String json = null;
-//            int size = inputStream.available();
-//            byte[] buffer = new byte[size];
-//            inputStream.read(buffer);
-//            inputStream.close();
-//            json = new String(buffer, "UTF-8");
-//        }catch (IOException e){
-//
-//        }
     }
 
     @Override
@@ -51,15 +39,33 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
 
     @Override
     public void hostFragment() {
-        DisplayRemedyFragment displayRemedyFragment = DisplayRemedyFragment.newInstance(bodyIndex, issueIndex);
+        DisplayRemedyViewPagerFragment displayRemedyViewPagerFragment = DisplayRemedyViewPagerFragment.newInstance(bodyIndex, issueIndex);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.add(R.id.frame_container, displayRemedyFragment).commit();
+        transaction.add(R.id.frame_container, displayRemedyViewPagerFragment).commit();
 
     }
 
     @Override
     public ArrayList<Issues> getRemedyList(int bodyIndex, int issueIndex) {
-        ArrayList<Issues> remedyList = displayRemediesPresenter.getEyesRemediesList(bodyIndex, issueIndex);
+        ArrayList<Issues> remedyList=null;
+        switch (bodyIndex) {
+            case 0:
+            remedyList = displayRemediesPresenter.getEyesRemediesList(bodyIndex, issueIndex);
+            break;
+            case 1:
+                remedyList = displayRemediesPresenter.getFaceRemediesList(bodyIndex,issueIndex);
+                break;
+            case 2:
+                remedyList = displayRemediesPresenter.getHairRemediesList(bodyIndex,issueIndex);
+                break;
+            case 3:
+                remedyList = displayRemediesPresenter.getArmsFeetRemediesList(bodyIndex,issueIndex);
+                break;
+            case 4:
+                remedyList = displayRemediesPresenter.getSkinRemediesList(bodyIndex,issueIndex);
+                break;
+
+        }
         return remedyList;
     }
     @Override

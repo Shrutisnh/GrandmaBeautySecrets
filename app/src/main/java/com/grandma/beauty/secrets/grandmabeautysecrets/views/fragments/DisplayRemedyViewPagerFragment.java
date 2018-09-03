@@ -8,7 +8,6 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
@@ -17,28 +16,24 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters.DisplayRem
 
 import java.util.ArrayList;
 
-public class DisplayRemedyFragment extends Fragment {
 
-    private static final String ARG_BODY_INDEX = "bodyIndex";
-    private static final String ARG_ISSUE_INDEX = "issueIndex";
+public class DisplayRemedyViewPagerFragment extends Fragment {
 
-
-    private int bodyIndex;
-    private int issueIndex;
 
     private OnFragmentInteractionListener mListener;
+    private static final String BODY_INDEX = "bodyIndex";
+    private static final String ISSUE_INDEX = "issueIndex";
+    private int bodyIndex,issueIndex;
 
-    public DisplayRemedyFragment() {
-
+    public DisplayRemedyViewPagerFragment() {
+        // Required empty public constructor
     }
 
-
-
-    public static DisplayRemedyFragment newInstance(int bodyIndex, int issueIndex) {
-        DisplayRemedyFragment fragment = new DisplayRemedyFragment();
+    public static DisplayRemedyViewPagerFragment newInstance(int bodyIndex, int issueIndex) {
+        DisplayRemedyViewPagerFragment fragment = new DisplayRemedyViewPagerFragment();
         Bundle args = new Bundle();
-        args.putInt(ARG_BODY_INDEX, bodyIndex);
-        args.putInt(ARG_ISSUE_INDEX, issueIndex);
+        args.putInt(BODY_INDEX, bodyIndex);
+        args.putInt(BODY_INDEX, issueIndex);
         fragment.setArguments(args);
         return fragment;
     }
@@ -47,21 +42,28 @@ public class DisplayRemedyFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            bodyIndex = getArguments().getInt(ARG_BODY_INDEX);
-            issueIndex = getArguments().getInt(ARG_ISSUE_INDEX);
+            bodyIndex = getArguments().getInt(BODY_INDEX,0);
+            issueIndex = getArguments().getInt(ISSUE_INDEX,0);
         }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.display_remedy_view, container, false);
-        TextView tvTipTitle = view.findViewById(R.id.tv_tipTitle);
-
-
-        return view;
+        View view = inflater.inflate(R.layout.fragment_display_remedy_view_pager,container,false);
+        ViewPager viewPager = view.findViewById(R.id.vp_displayRemedy);
+        ArrayList<Issues> remedyList=((DisplayRemediesActivity)mListener).getRemedyList(bodyIndex,issueIndex);
+        DisplayRemedyViewPagerAdapter displayRemedyViewPagerAdapter = new DisplayRemedyViewPagerAdapter(getActivity().getSupportFragmentManager(),bodyIndex,remedyList);
+        viewPager.setAdapter(displayRemedyViewPagerAdapter);
+        return inflater.inflate(R.layout.fragment_display_remedy_view_pager, container, false);
     }
 
+    // TODO: Rename method, update argument and hook method into UI event
+    public void onButtonPressed(Uri uri) {
+        if (mListener != null) {
+            mListener.onFragmentInteraction(uri);
+        }
+    }
 
     @Override
     public void onAttach(Context context) {
