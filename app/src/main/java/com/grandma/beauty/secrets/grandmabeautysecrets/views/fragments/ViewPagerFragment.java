@@ -18,22 +18,20 @@ public class ViewPagerFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "page";
     private static final String ARG_PARAM2 = "title";
-
     private int page;
     private String title;
 
     private OnFragmentInteractionListener mListener;
 
-    public ViewPagerFragment(){
+    public ViewPagerFragment() {
 
     }
-
 
     public static ViewPagerFragment newInstance(int pager, String title) {
         ViewPagerFragment fragment = new ViewPagerFragment();
         Bundle bundle = new Bundle();
-        bundle.putInt(ARG_PARAM1,pager);
-        bundle.putString(ARG_PARAM2,title);
+        bundle.putInt(ARG_PARAM1, pager);
+        bundle.putString(ARG_PARAM2, title);
         fragment.setArguments(bundle);
         return fragment;
     }
@@ -50,19 +48,17 @@ public class ViewPagerFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view =inflater.inflate(R.layout.fragment_view_pager,container,false);
+        View view = inflater.inflate(R.layout.fragment_view_pager, container, false);
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
-
-        CustomListAdapter adapter = new CustomListAdapter(getActivity(),getListToDisplay(page));
+        CustomListAdapter adapter = new CustomListAdapter(getActivity(), getListToDisplay(page));
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-
         recyclerView.setAdapter(adapter);
         return view;
     }
 
-    private String[] getListToDisplay(int page){
+    private String[] getListToDisplay(int page) {
         String[] list;
-        switch(page){
+        switch (page) {
             case 0:
                 list = getResources().getStringArray(R.array.EyesIssues);
                 break;
@@ -78,13 +74,11 @@ public class ViewPagerFragment extends Fragment {
             case 4:
                 list = getResources().getStringArray(R.array.Skin);
                 break;
-           default:
-               list = getResources().getStringArray(R.array.Eyes);
+            default:
+                list = getResources().getStringArray(R.array.Eyes);
         }
         return list;
     }
-
-
 
     @Override
     public void onAttach(Context context) {
@@ -103,11 +97,8 @@ public class ViewPagerFragment extends Fragment {
         mListener = null;
     }
 
-
-
     public interface OnFragmentInteractionListener {
         void onFragmentInteraction(Uri uri);
     }
-
 
 }
