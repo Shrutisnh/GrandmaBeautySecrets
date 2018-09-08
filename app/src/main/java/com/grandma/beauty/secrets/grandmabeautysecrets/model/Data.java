@@ -3,11 +3,14 @@ package com.grandma.beauty.secrets.grandmabeautysecrets.model;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Data {
+import java.io.Serializable;
+import java.util.List;
+
+public class Data implements Serializable {
     @SerializedName("Issue")
     public String issue;
     @SerializedName("Remedy")
-    public Remedy[] remedies;
+    public List<Remedy> remedies;
 
     public String getIssue() {
         return issue;
@@ -17,11 +20,11 @@ public class Data {
         this.issue = issue;
     }
 
-    public Remedy[] getRemedies() {
+    public List<Remedy> getRemedies() {
         return remedies;
     }
 
-    public void setRemedies(Remedy[] remedies) {
+    public void setRemedies(List<Remedy> remedies) {
         this.remedies = remedies;
     }
 }

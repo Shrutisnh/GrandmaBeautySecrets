@@ -18,6 +18,8 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.util.JSONUtil;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyViewPagerFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IDisplayRemedy;
 
+import java.util.List;
+
 public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy, DisplayRemedyViewPagerFragment.OnFragmentInteractionListener {
 
     DisplayRemediesPresenter displayRemediesPresenter;
@@ -44,8 +46,8 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
     }
 
     @Override
-    public Remedy[] getRemedyList(int bodyIndex, int issueIndex) {
-        Remedy[] remedyList=null;
+    public List<Remedy> getRemedyList(int bodyIndex, int issueIndex) {
+        List<Remedy> remedyList=null;
         remedyList =JSONUtil.getInstance(this).getRemedyList(bodyIndex,issueIndex);
         return remedyList;
     }

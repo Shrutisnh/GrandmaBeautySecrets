@@ -16,6 +16,7 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.DisplayR
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters.DisplayRemedyViewPagerAdapter;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class DisplayRemedyViewPagerFragment extends Fragment {
@@ -53,10 +54,10 @@ public class DisplayRemedyViewPagerFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_display_remedy_view_pager,container,false);
         ViewPager viewPager = view.findViewById(R.id.vp_displayRemedy);
-        Remedy[] remedyList=((DisplayRemediesActivity)mListener).getRemedyList(bodyIndex,issueIndex);
+        List<Remedy> remedyList=((DisplayRemediesActivity)mListener).getRemedyList(bodyIndex,issueIndex);
         DisplayRemedyViewPagerAdapter displayRemedyViewPagerAdapter = new DisplayRemedyViewPagerAdapter(getActivity().getSupportFragmentManager(),bodyIndex,remedyList);
         viewPager.setAdapter(displayRemedyViewPagerAdapter);
-        return inflater.inflate(R.layout.fragment_display_remedy_view_pager, container, false);
+        return view;
     }
 
 

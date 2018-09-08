@@ -10,15 +10,18 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.Remedy;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class DisplayRemedyFragment extends Fragment {
 
     private static final String ARG_BODY_INDEX = "bodyIndex";
     private static final String ARG_ISSUE_INDEX = "issueIndex";
-
-
     private int bodyIndex;
     private int issueIndex;
+    private ArrayList<Remedy> remedyList;
 
     private OnFragmentInteractionListener mListener;
 
@@ -26,13 +29,12 @@ public class DisplayRemedyFragment extends Fragment {
 
     }
 
-
-
-    public static DisplayRemedyFragment newInstance(int bodyIndex, int issueIndex) {
+    public static DisplayRemedyFragment newInstance(int bodyIndex, int issueIndex, ArrayList<Remedy> remedyList) {
         DisplayRemedyFragment fragment = new DisplayRemedyFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_BODY_INDEX, bodyIndex);
         args.putInt(ARG_ISSUE_INDEX, issueIndex);
+        args.putSerializable("remedyList", remedyList);
         fragment.setArguments(args);
         return fragment;
     }
@@ -43,30 +45,36 @@ public class DisplayRemedyFragment extends Fragment {
         if (getArguments() != null) {
             bodyIndex = getArguments().getInt(ARG_BODY_INDEX);
             issueIndex = getArguments().getInt(ARG_ISSUE_INDEX);
+            remedyList = (ArrayList<Remedy>) getArguments().getSerializable("remedyList");
         }
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.display_remedy_view, container, false);
         TextView tvTipTitle = view.findViewById(R.id.tv_tipTitle);
-
-
+        tvTipTitle.setText(String.format("Tip %s/%s", issueIndex+1, remedyList.size()).toString());
+        TextView tvProcedure = view.findViewById(R.id.tv_ProcedureDetail);
+        TextView tvIngredientsList = view.findViewById(R.id.tv_IngredientList);
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String ingredients: remedyList.get(issueIndex).getIngredients()) {
+            stringBuilder.append(ingredients).append("\n");
+        }
+        tvIngredientsList.setText(stringBuilder.toString());
+        tvProcedure.setText(remedyList.get(issueIndex).getProcedure());
         return view;
     }
 
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
-    }
+//    @Override
+//    public void onAttach(Context context) {
+//        super.onAttach(context);
+//        if (context instanceof OnFragmentInteractionListener) {
+//            mListener = (OnFragmentInteractionListener) context;
+//        } else {
+//            throw new RuntimeException(context.toString()
+//                    + " must implement OnFragmentInteractionListener");
+//        }
+//    }
 
     @Override
     public void onDetach() {
