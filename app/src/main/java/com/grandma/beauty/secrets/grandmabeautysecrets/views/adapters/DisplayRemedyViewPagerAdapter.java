@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.Remedy;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyFragment;
 
 import java.util.ArrayList;
@@ -15,8 +16,8 @@ import java.util.ArrayList;
 public class DisplayRemedyViewPagerAdapter extends FragmentPagerAdapter
 {
     int bodyIndex;
-    ArrayList<Issues> remedyList;
-    public DisplayRemedyViewPagerAdapter(FragmentManager fm, int bodyIndex, ArrayList<Issues> remedyList) {
+    Remedy[] remedyList;
+    public DisplayRemedyViewPagerAdapter(FragmentManager fm, int bodyIndex, Remedy[] remedyList) {
         super(fm);
         this.bodyIndex = bodyIndex;
         this.remedyList = remedyList;
@@ -29,7 +30,7 @@ public class DisplayRemedyViewPagerAdapter extends FragmentPagerAdapter
 
     @Override
     public int getCount() {
-        return remedyList.size();
+        return remedyList.length;
     }
 
     @Override

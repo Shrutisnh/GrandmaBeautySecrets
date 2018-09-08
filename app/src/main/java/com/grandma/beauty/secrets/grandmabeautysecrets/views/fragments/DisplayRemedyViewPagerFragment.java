@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.Remedy;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.DisplayRemediesActivity;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters.DisplayRemedyViewPagerAdapter;
 
@@ -52,18 +53,12 @@ public class DisplayRemedyViewPagerFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_display_remedy_view_pager,container,false);
         ViewPager viewPager = view.findViewById(R.id.vp_displayRemedy);
-        ArrayList<Issues> remedyList=((DisplayRemediesActivity)mListener).getRemedyList(bodyIndex,issueIndex);
+        Remedy[] remedyList=((DisplayRemediesActivity)mListener).getRemedyList(bodyIndex,issueIndex);
         DisplayRemedyViewPagerAdapter displayRemedyViewPagerAdapter = new DisplayRemedyViewPagerAdapter(getActivity().getSupportFragmentManager(),bodyIndex,remedyList);
         viewPager.setAdapter(displayRemedyViewPagerAdapter);
         return inflater.inflate(R.layout.fragment_display_remedy_view_pager, container, false);
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
-    }
 
     @Override
     public void onAttach(Context context) {

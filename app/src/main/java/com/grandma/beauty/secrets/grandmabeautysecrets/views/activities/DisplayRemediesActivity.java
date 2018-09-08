@@ -10,15 +10,13 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.model.ArmsFeet;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Eyes;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Face;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Hair;
-import com.grandma.beauty.secrets.grandmabeautysecrets.model.Issues;
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.Remedy;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Skin;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.BasePresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.DisplayRemediesPresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.util.JSONUtil;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments.DisplayRemedyViewPagerFragment;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IDisplayRemedy;
-
-import java.util.ArrayList;
 
 public class DisplayRemediesActivity extends BaseActivity implements IDisplayRemedy, DisplayRemedyViewPagerFragment.OnFragmentInteractionListener {
 
@@ -46,45 +44,28 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
     }
 
     @Override
-    public ArrayList<Issues> getRemedyList(int bodyIndex, int issueIndex) {
-        ArrayList<Issues> remedyList=null;
-        switch (bodyIndex) {
-            case 0:
-            remedyList = displayRemediesPresenter.getEyesRemediesList(bodyIndex, issueIndex);
-            break;
-            case 1:
-                remedyList = displayRemediesPresenter.getFaceRemediesList(bodyIndex,issueIndex);
-                break;
-            case 2:
-                remedyList = displayRemediesPresenter.getHairRemediesList(bodyIndex,issueIndex);
-                break;
-            case 3:
-                remedyList = displayRemediesPresenter.getArmsFeetRemediesList(bodyIndex,issueIndex);
-                break;
-            case 4:
-                remedyList = displayRemediesPresenter.getSkinRemediesList(bodyIndex,issueIndex);
-                break;
-
-        }
+    public Remedy[] getRemedyList(int bodyIndex, int issueIndex) {
+        Remedy[] remedyList=null;
+        remedyList =JSONUtil.getInstance(this).getRemedyList(bodyIndex,issueIndex);
         return remedyList;
     }
     @Override
     public Object getBodyIssueRemedyObject(int bodyIssue){
         switch (bodyIssue){
             case 0 :
-                Eyes eyes = (Eyes) new JSONUtil().getInstance(this).parseJsonResponse(bodyIssue);
+                Eyes eyes = (Eyes) new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
                 return eyes;
             case 1:
-                Face face = (Face)new JSONUtil().getInstance(this).parseJsonResponse(bodyIssue);
+                Face face = (Face)new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
                 return face;
             case 2:
-                Hair hair = (Hair)new JSONUtil().getInstance(this).parseJsonResponse(bodyIssue);
+                Hair hair = (Hair)new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
                 return hair;
             case 3:
-                ArmsFeet armsFeet = (ArmsFeet)new JSONUtil().getInstance(this).parseJsonResponse(bodyIssue);
+                ArmsFeet armsFeet = (ArmsFeet)new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
                 return armsFeet;
             case 4:
-                Skin skin = (Skin)new JSONUtil().getInstance(this).parseJsonResponse(bodyIssue);
+                Skin skin = (Skin)new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
                 return skin;
         }
         return null;

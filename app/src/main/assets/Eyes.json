@@ -1,8 +1,8 @@
-{
-
-  "Eyes": [
+{"Eyes":{
+  "data":[
     {
-      "Dark Circles": [
+      "Issue":"Dark Circle",
+      "Remedy":[
         {
           "Ingredients": [
             "Rosewater"
@@ -133,25 +133,122 @@
       ]
     },
     {
-      "Sunken Eyes": [
+      "Issue":"Sunken Eyes",
+      "Remedy":[
         {
           "Ingredients": [
-            "Sleep"
+            "Rosewater"
           ],
-          "Procedures": "Ensure you get at least 7 hours of sleep every day.\nBesides, it makes no harm if you take a small nap during the day not more than 30 minutes!"
+          "Procedure": "Blah blah blah"
         },
         {
-          "Ingredients":["Almond oil"],
-          "Procedures":"Apply almond oil under the eyes several times a day.\nAlmond oil is rich in Vitamin E, a nourishing vitamin for skin."
+          "Ingredients": [
+            "Cucumber"
+          ],
+          "Procedure": "Blh blah blah"
         },
         {
-          "Ingredients":["Potato"],
-          "Procedures":"Slice the potato and place it on the affected spot for around 20 minutes.\nAlternatively, you can apply the juice of raw potato directly on the hollow spots."
+          "Ingredients": [
+            "Almond oil"
+          ],
+          "Procedure": "Blh blah blah"
+        },
+        {
+          "Ingredients": [
+            "Lemon juice"
+          ],
+          "Procedure": "Blh blah blah"
+        },
+        {
+          "Ingredients": [
+            "Potato"
+          ],
+          "Procedure": "Blh blah blah"
+        },
+        {
+          "Ingredients": [
+            "Turmeric powder",
+            "Pineapple"
+          ],
+          "Procedure": "Blh blah blah"
+        },
+        {
+          "Ingredients": [
+            "Tomato juice",
+            "Lemon juice"
+          ],
+          "Procedure": "Blh blah blah"
+        },
+        {
+          "Ingredients": [
+            "Ripe apple"
+          ],
+          "Procedure": "Blh blah blah"
+        },
+        {
+          "Ingredients": [
+            "Orange juice",
+            "Glycerin"
+          ],
+          "Procedure": "Blah blah blah"
+        },
+        {
+          "Ingredients": [
+            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
+          ],
+          "Procedure": "Blah blah blah"
+        },
+        {
+          "Ingredients": [
+            "Cold milk soaked cotton balls"
+          ],
+          "Procedure": "Blah blah blah"
+        },
+        {
+          "Ingredients": [
+            "Coconut oil"
+          ],
+          "Procedure": "Blah blah blah"
+        },
+        {
+          "Ingredients": [
+            "Fenugreek seeds",
+            "Water"
+          ],
+          "Procedure": "Blah blah blah"
+        },
+        {
+          "Ingredients": [
+            "2 teaspoons of Buttermilk",
+            "1/4 teaspoon of turmeric powder"
+          ],
+          "Procedure": "Blah blah blah"
+        },
+        {
+          "Ingredients": [
+            "2 Chamomile tea bags",
+            "Hot water"
+          ],
+          "Procedure": "Blah blah blah"
+        },
+        {
+          "Ingredients": [
+            "Slices of avocado"
+          ],
+          "Procedure": "Blah blah blah"
+        },
+        {
+          "Ingredients": [
+            "2 drops of jasmine essential oil",
+            "2 tablespoons of either olive, almond or vegetable oil"
+          ],
+          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
         }
       ]
     },
     {
-      "Puffiness": [
+      "Issue":"Puffiness",
+      "Remedy":[
         {
           "Ingredients": [
             "Rosewater"
@@ -282,7 +379,8 @@
       ]
     },
     {
-      "Beautiful Eyes": [
+      "Issue":"Beautiful Eyes",
+      "Remedy":[
         {
           "Ingredients": [
             "Rosewater"
@@ -413,7 +511,8 @@
       ]
     },
     {
-      "Eyebrows To Grow": [
+      "Issue":"Eyebrows To Grow",
+      "Remedy":[
         {
           "Ingredients": [
             "Rosewater"
@@ -542,9 +641,5 @@
           "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
         }
       ]
-
-
     }
-  ]
-
-}
+  ]}}

@@ -5,25 +5,27 @@ import android.content.Context;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.ArmsFeet;
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.Data;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Eyes;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Face;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Hair;
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.Remedy;
+import com.grandma.beauty.secrets.grandmabeautysecrets.model.ResponseData;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Skin;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-public  class JSONUtil {
-     public static Context context;
-      static JSONUtil jsonUtil;
+public class JSONUtil {
+    public static Context context;
+    static JSONUtil jsonUtil;
 
-    public static JSONUtil getInstance(Context cntx){
-        context =cntx;
-        if(jsonUtil==null) {
+    public static JSONUtil getInstance(Context cntx) {
+        context = cntx;
+        if (jsonUtil == null) {
             jsonUtil = new JSONUtil();
             return jsonUtil;
-        }
-        else
+        } else
             return jsonUtil;
     }
 
@@ -66,28 +68,62 @@ public  class JSONUtil {
 
     }
 
-    public static Object parseJsonResponse(int bodyIndex){
+    public static Object getResponseObject(int bodyIndex) {
         Gson gson = new GsonBuilder().create();
-        switch (bodyIndex){
+        ResponseData responseData = gson.fromJson(getResponseData(bodyIndex), ResponseData.class);
+        switch (bodyIndex) {
             case 0:
-                Eyes eyesObject = gson.fromJson(getResponseData(bodyIndex),Eyes.class);
+                Eyes eyesObject = responseData.getEyes();
                 return eyesObject;
-
             case 1:
-                Face faceObject = gson.fromJson(getResponseData(bodyIndex),Face.class);
+                Face faceObject = responseData.getFace();
                 return faceObject;
-
             case 2:
-                Hair hairObject = gson.fromJson(getResponseData(bodyIndex),Hair.class);
+                Hair hairObject = responseData.getHair();
                 return hairObject;
-
             case 3:
-                ArmsFeet armsFeetObject = gson.fromJson(getResponseData(bodyIndex),ArmsFeet.class);
+                ArmsFeet armsFeetObject = responseData.getArmsFeet();
                 return armsFeetObject;
-
             case 4:
-                Skin skinObject = gson.fromJson(getResponseData(bodyIndex),Skin.class);
+                Skin skinObject = responseData.getSkin();
                 return skinObject;
+        }
+        return null;
+    }
+
+    public  Remedy[] getRemedyList(int bodyIndex, int issueIndex) {
+        Object object = getResponseObject(bodyIndex);
+        switch (bodyIndex) {
+            case 0: {
+                Eyes eyesObject = (Eyes) object;
+                Data[] data = eyesObject.getData();
+                Remedy[] remedies = data[issueIndex].getRemedies();
+                return remedies;
+            }
+            case 1:{
+                Face faceObject = (Face)object;
+                Data[] data = faceObject.getData();
+                Remedy[] remedies = data[issueIndex].getRemedies();
+                return remedies;
+            }
+            case 2:{
+                Hair hairObject = (Hair)object;
+                Data[] data = hairObject.getData();
+                Remedy[] remedies = data[issueIndex].getRemedies();
+                return remedies;
+            }
+            case 4:{
+                Face faceObject = (Face)object;
+                Data[] data = faceObject.getData();
+                Remedy[] remedies = data[issueIndex].getRemedies();
+                return remedies;
+            }
+            case 3:{
+                ArmsFeet armsFeetObject = (ArmsFeet)object;
+                Data[] data = armsFeetObject.getData();
+                Remedy[] remedies = data[issueIndex].getRemedies();
+                return remedies;
+            }
         }
         return null;
     }
