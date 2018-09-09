@@ -17,7 +17,7 @@ public class DisplayRemediesPresenter extends BaseActivityPresenter {
     public DisplayRemediesPresenter(IDisplayRemedy displayRemedyView) {
         super(displayRemedyView);
         this.displayRemedyView = displayRemedyView;
-        hostFragment();
+//        hostFragment();
     }
 
     public void hostFragment(){

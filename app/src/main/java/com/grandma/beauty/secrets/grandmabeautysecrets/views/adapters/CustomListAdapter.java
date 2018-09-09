@@ -10,38 +10,33 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
-import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.HomeScreenPresenter;
-import com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.HomeScreenActivity;
+import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.RecyclerViewClickListener;
 
 public class CustomListAdapter extends RecyclerView.Adapter<CustomListAdapter.CustomListViewHolder> {
     Context context;
     String[] list;
+    RecyclerViewClickListener recyclerViewClickListener;
 
 
-
-    public static class CustomListViewHolder extends RecyclerView.ViewHolder {
+    public  class CustomListViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private TextView textView;
 
-        public CustomListViewHolder(View view) {
+        public CustomListViewHolder(View view ) {
             super(view);
             this.textView = view.findViewById(R.id.tvIssue);
+            view.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            CustomListAdapter.this.recyclerViewClickListener.recyclerViewListClicked(view,this.getAdapterPosition());
         }
     }
 
-
-    public CustomListAdapter(Context context, String[] list) {
+    public CustomListAdapter(Context context, String[] list, RecyclerViewClickListener recyclerViewClickListener) {
         this.context = context;
         this.list = list;
-
-    }
-
-    public class ItemClickListener implements View.OnClickListener {
-        @Override
-        public void onClick(View v) {
-            HomeScreenPresenter presenter=(HomeScreenPresenter)((HomeScreenActivity)context).getPresenter();
-            presenter.setDisplayRemedyList(v.getId());
-
-        }
+        this.recyclerViewClickListener = recyclerViewClickListener;
     }
 
     @NonNull
@@ -49,7 +44,6 @@ public class CustomListAdapter extends RecyclerView.Adapter<CustomListAdapter.Cu
     public CustomListViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.list_row_item, parent, false);
-        itemView.setOnClickListener(new ItemClickListener());
         return new CustomListViewHolder(itemView);
     }
 

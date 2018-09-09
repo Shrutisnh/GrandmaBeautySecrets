@@ -30,6 +30,7 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
         super.onCreate(savedInstanceState);
         bodyIndex = getIntent().getIntExtra(AppConstants.BODY_INDEX, 0);
         issueIndex = getIntent().getIntExtra(AppConstants.ISSUE_INDEX, 0);
+        displayRemediesPresenter.hostFragment();
     }
 
     @Override

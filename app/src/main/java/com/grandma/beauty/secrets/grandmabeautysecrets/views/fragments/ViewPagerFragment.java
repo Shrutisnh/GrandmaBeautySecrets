@@ -11,10 +11,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
+import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.HomeScreenPresenter;
+import com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.HomeScreenActivity;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters.CustomListAdapter;
+import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.RecyclerViewClickListener;
 
 
-public class ViewPagerFragment extends Fragment {
+public class ViewPagerFragment extends Fragment implements RecyclerViewClickListener{
 
     private static final String ARG_PARAM1 = "page";
     private static final String ARG_PARAM2 = "title";
@@ -53,7 +56,7 @@ public class ViewPagerFragment extends Fragment {
         View view =inflater.inflate(R.layout.fragment_view_pager,container,false);
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
 
-        CustomListAdapter adapter = new CustomListAdapter(getActivity(),getListToDisplay(page));
+        CustomListAdapter adapter = new CustomListAdapter(getActivity(),getListToDisplay(page),this);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         recyclerView.setAdapter(adapter);
@@ -103,6 +106,11 @@ public class ViewPagerFragment extends Fragment {
         mListener = null;
     }
 
+    @Override
+    public void recyclerViewListClicked(View v, int position) {
+        HomeScreenPresenter presenter = ((HomeScreenActivity)getActivity()).getPresenter();
+        presenter.setDisplayRemedyList(position);
+    }
 
 
     public interface OnFragmentInteractionListener {

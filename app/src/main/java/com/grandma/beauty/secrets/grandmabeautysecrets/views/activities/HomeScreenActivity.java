@@ -41,6 +41,10 @@ public class HomeScreenActivity extends BaseActivity implements IHomeView, ViewP
         return homePresenter;
     }
 
+    @Override
+    public HomeScreenPresenter getPresenter() {
+        return homePresenter;
+    }
 
     @Override
     public void setTabStyle() {
