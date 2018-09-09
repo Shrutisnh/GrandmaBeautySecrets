@@ -82,7 +82,7 @@ public class ViewPagerFragment extends Fragment implements RecyclerViewClickList
                 list = getResources().getStringArray(R.array.Skin);
                 break;
            default:
-               list = getResources().getStringArray(R.array.Eyes);
+               list = getResources().getStringArray(R.array.EyesIssues);
         }
         return list;
     }

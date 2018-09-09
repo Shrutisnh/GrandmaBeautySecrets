@@ -21,8 +21,8 @@ public class JSONUtil {
     public static Context context;
     static JSONUtil jsonUtil;
 
-    public static JSONUtil getInstance(Context cntx) {
-        context = cntx;
+    public static JSONUtil getInstance(Context context) {
+        JSONUtil.context = context;
         if (jsonUtil == null) {
             jsonUtil = new JSONUtil();
             return jsonUtil;
@@ -99,32 +99,42 @@ public class JSONUtil {
         switch (bodyIndex) {
             case 0: {
                 Eyes eyesObject = (Eyes) object;
-                data = eyesObject.getData();
-                remedies = data.get(issueIndex).getRemedies();
+                if(!eyesObject.getData().isEmpty()) {
+                    data = eyesObject.getData();
+                    remedies = data.get(issueIndex).getRemedies();
+                }
                 return remedies;
             }
             case 1:{
                 Face faceObject = (Face)object;
-                data = faceObject.getData();
-                remedies = data.get(issueIndex).getRemedies();
+                if(!faceObject.getData().isEmpty()) {
+                    data = faceObject.getData();
+                    remedies = data.get(issueIndex).getRemedies();
+                }
                 return remedies;
             }
             case 2:{
                 Hair hairObject = (Hair)object;
-                data = hairObject.getData();
-                remedies = data.get(issueIndex).getRemedies();
+                if(!hairObject.getData().isEmpty()) {
+                    data = hairObject.getData();
+                    remedies = data.get(issueIndex).getRemedies();
+                }
                 return remedies;
             }
             case 4:{
                 Face faceObject = (Face)object;
-                data = faceObject.getData();
-                remedies = data.get(issueIndex).getRemedies();
+                if(!faceObject.getData().isEmpty()) {
+                    data = faceObject.getData();
+                    remedies = data.get(issueIndex).getRemedies();
+                }
                 return remedies;
             }
             case 3:{
                 ArmsFeet armsFeetObject = (ArmsFeet)object;
-                data = armsFeetObject.getData();
-                remedies = data.get(issueIndex).getRemedies();
+                if(!armsFeetObject.getData().isEmpty()) {
+                    data = armsFeetObject.getData();
+                    remedies = data.get(issueIndex).getRemedies();
+                }
                 return remedies;
             }
         }
