@@ -53,14 +53,22 @@ public class DisplayRemedyFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.display_remedy_view, container, false);
         TextView tvTipTitle = view.findViewById(R.id.tv_tipTitle);
+        TextView tvIngredientHeader = view.findViewById(R.id.tv_IngredientHeader);
         tvTipTitle.setText(String.format("Tip %s/%s", issueIndex+1, remedyList.size()).toString());
         TextView tvProcedure = view.findViewById(R.id.tv_ProcedureDetail);
+
         TextView tvIngredientsList = view.findViewById(R.id.tv_IngredientList);
         StringBuilder stringBuilder = new StringBuilder();
         for (String ingredients: remedyList.get(issueIndex).getIngredients()) {
             stringBuilder.append(ingredients).append("\n");
         }
-        tvIngredientsList.setText(stringBuilder.toString());
+        if(remedyList.get(issueIndex).getIngredients()!=null && !remedyList.get(issueIndex).getIngredients().isEmpty()){
+            tvIngredientsList.setText(stringBuilder.toString());
+        }else {
+            tvIngredientHeader.setVisibility(View.GONE);
+            tvIngredientsList.setVisibility(View.GONE);
+        }
+
         tvProcedure.setText(remedyList.get(issueIndex).getProcedure());
         return view;
     }
