@@ -15,7 +15,6 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.model.Skin;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.List;
 
 public class JSONUtil {
@@ -95,35 +94,37 @@ public class JSONUtil {
 
     public  List<Remedy> getRemedyList(int bodyIndex, int issueIndex) {
         Object object = getResponseObject(bodyIndex);
+        List<Remedy> remedies = null;
+        List<Data> data;
         switch (bodyIndex) {
             case 0: {
                 Eyes eyesObject = (Eyes) object;
-                List<Data> data = eyesObject.getData();
-                List<Remedy> remedies = data.get(issueIndex).getRemedies();
+                data = eyesObject.getData();
+                remedies = data.get(issueIndex).getRemedies();
                 return remedies;
             }
             case 1:{
                 Face faceObject = (Face)object;
-                List<Data> data = faceObject.getData();
-                List<Remedy> remedies = data.get(issueIndex).getRemedies();
+                data = faceObject.getData();
+                remedies = data.get(issueIndex).getRemedies();
                 return remedies;
             }
             case 2:{
                 Hair hairObject = (Hair)object;
-                List<Data> data = hairObject.getData();
-                List<Remedy> remedies = data.get(issueIndex).getRemedies();
+                data = hairObject.getData();
+                remedies = data.get(issueIndex).getRemedies();
                 return remedies;
             }
             case 4:{
                 Face faceObject = (Face)object;
-                List<Data> data = faceObject.getData();
-                List<Remedy> remedies = data.get(issueIndex).getRemedies();
+                data = faceObject.getData();
+                remedies = data.get(issueIndex).getRemedies();
                 return remedies;
             }
             case 3:{
                 ArmsFeet armsFeetObject = (ArmsFeet)object;
-                List<Data> data = armsFeetObject.getData();
-                List<Remedy> remedies = data.get(issueIndex).getRemedies();
+                data = armsFeetObject.getData();
+                remedies = data.get(issueIndex).getRemedies();
                 return remedies;
             }
         }

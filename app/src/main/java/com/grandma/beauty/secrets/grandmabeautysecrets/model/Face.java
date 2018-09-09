@@ -2,10 +2,10 @@ package com.grandma.beauty.secrets.grandmabeautysecrets.model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
 import java.util.List;
 
-public class Face implements Serializable{
+public class Face{
+
     @SerializedName("data")
     public List<Data> data;
 

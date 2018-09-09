@@ -4,8 +4,10 @@ package com.grandma.beauty.secrets.grandmabeautysecrets.model;
 import com.google.gson.annotations.SerializedName;
 
 public class Issues {
+
     @SerializedName("Ingredients")
     private String[] ingredients;
+
     @SerializedName("Procedure")
     private String procedure;
 

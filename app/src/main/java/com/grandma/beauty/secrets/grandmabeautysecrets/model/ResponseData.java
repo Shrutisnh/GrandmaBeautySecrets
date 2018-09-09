@@ -2,17 +2,19 @@ package com.grandma.beauty.secrets.grandmabeautysecrets.model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
-public class ResponseData implements Serializable {
+public class ResponseData {
     @SerializedName("Eyes")
     public Eyes eyes;
+
     @SerializedName("Face")
     public Face face;
+
     @SerializedName("Hair")
     public Hair hair;
+
     @SerializedName(" Arms & Feet")
     public ArmsFeet armsFeet;
+
     @SerializedName("Skin")
     public Skin skin;
 

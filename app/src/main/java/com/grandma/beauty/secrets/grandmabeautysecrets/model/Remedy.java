@@ -3,10 +3,9 @@ package com.grandma.beauty.secrets.grandmabeautysecrets.model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
 import java.util.List;
 
-public class Remedy implements Serializable {
+public class Remedy {
     @SerializedName("Procedure")
     public String procedure;
     @SerializedName("Ingredients")

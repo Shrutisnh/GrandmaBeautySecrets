@@ -2,11 +2,11 @@ package com.grandma.beauty.secrets.grandmabeautysecrets.model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
 import java.util.List;
 
 
-public class Hair implements Serializable {
+public class Hair{
+
     @SerializedName("data")
     public List<Data> data;
 

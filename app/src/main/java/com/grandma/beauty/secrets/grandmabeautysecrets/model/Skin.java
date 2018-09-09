@@ -1,13 +1,10 @@
 package com.grandma.beauty.secrets.grandmabeautysecrets.model;
 
-
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
-public class Skin implements Serializable{
+public class Skin {
     @SerializedName("data")
-   public Data[] data;
+    public Data[] data;
 
     public Data[] getData() {
         return data;

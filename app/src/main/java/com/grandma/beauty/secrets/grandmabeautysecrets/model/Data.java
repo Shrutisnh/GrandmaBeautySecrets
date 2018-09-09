@@ -1,14 +1,14 @@
 package com.grandma.beauty.secrets.grandmabeautysecrets.model;
 
-
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
 import java.util.List;
 
-public class Data implements Serializable {
+public class Data{
+
     @SerializedName("Issue")
     public String issue;
+
     @SerializedName("Remedy")
     public List<Remedy> remedies;
 
