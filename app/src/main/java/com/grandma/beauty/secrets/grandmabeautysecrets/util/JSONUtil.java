@@ -121,14 +121,6 @@ public class JSONUtil {
                 }
                 return remedies;
             }
-            case 4:{
-                Face faceObject = (Face)object;
-                if(!faceObject.getData().isEmpty()) {
-                    data = faceObject.getData();
-                    remedies = data.get(issueIndex).getRemedies();
-                }
-                return remedies;
-            }
             case 3:{
                 ArmsFeet armsFeetObject = (ArmsFeet)object;
                 if(!armsFeetObject.getData().isEmpty()) {
@@ -137,6 +129,15 @@ public class JSONUtil {
                 }
                 return remedies;
             }
+            case 4:{
+                Skin skinObject = (Skin)object;
+                if(!skinObject.getData().isEmpty()) {
+                    data = skinObject.getData();
+                    remedies = data.get(issueIndex).getRemedies();
+                }
+                return remedies;
+            }
+
         }
         return null;
     }

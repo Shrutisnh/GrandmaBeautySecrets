@@ -12,7 +12,7 @@ public class ResponseData {
     @SerializedName("Hair")
     public Hair hair;
 
-    @SerializedName(" Arms & Feet")
+    @SerializedName("Arms & Feet")
     public ArmsFeet armsFeet;
 
     @SerializedName("Skin")
