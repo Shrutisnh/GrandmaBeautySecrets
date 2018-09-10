@@ -49,7 +49,7 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
     @Override
     public List<Remedy> getRemedyList(int bodyIndex, int issueIndex) {
         List<Remedy> remedyList=null;
-        remedyList =JSONUtil.getInstance(this).getRemedyList(bodyIndex,issueIndex);
+        remedyList = new JSONUtil().getInstance(this).getRemedyList(bodyIndex,issueIndex);
         return remedyList;
     }
     @Override
