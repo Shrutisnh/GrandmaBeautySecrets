@@ -4,19 +4,19 @@ import com.google.gson.annotations.SerializedName;
 
 public class ResponseData {
     @SerializedName("Eyes")
-    public Eyes eyes;
+    private Eyes eyes;
 
     @SerializedName("Face")
-    public Face face;
+    private Face face;
 
     @SerializedName("Hair")
-    public Hair hair;
+    private Hair hair;
 
     @SerializedName("Arms & Feet")
-    public ArmsFeet armsFeet;
+    private ArmsFeet armsFeet;
 
     @SerializedName("Skin")
-    public Skin skin;
+    private Skin skin;
 
     public Eyes getEyes() {
         return eyes;

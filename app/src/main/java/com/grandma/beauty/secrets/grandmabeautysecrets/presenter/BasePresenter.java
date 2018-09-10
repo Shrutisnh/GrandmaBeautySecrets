@@ -4,16 +4,11 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.BaseActi
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.IBaseView;
 
 public class BasePresenter {
-    private IBaseView baseView;
-    private BaseActivity baseActivity;
 
-    public BasePresenter(IBaseView baseView){
-        this.baseView = baseView;
+    public BasePresenter(IBaseView baseView) {
     }
 
-    public void onCreate(BaseActivity baseActivity){
-       this.baseActivity = baseActivity;
+    public void onCreate(BaseActivity baseActivity) {
     }
 
-
-    }
+}

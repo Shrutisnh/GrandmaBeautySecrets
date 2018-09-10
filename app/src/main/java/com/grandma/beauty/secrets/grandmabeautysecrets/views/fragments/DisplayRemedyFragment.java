@@ -54,7 +54,7 @@ public class DisplayRemedyFragment extends Fragment {
         View view = inflater.inflate(R.layout.display_remedy_view, container, false);
         TextView tvTipTitle = view.findViewById(R.id.tv_tipTitle);
         TextView tvIngredientHeader = view.findViewById(R.id.tv_IngredientHeader);
-        tvTipTitle.setText(String.format("Tip %s/%s", issueIndex+1, remedyList.size()).toString());
+        tvTipTitle.setText(String.format(getResources().getString(R.string.Tip), String.valueOf(issueIndex+1), String.valueOf(remedyList.size())));
         TextView tvProcedure = view.findViewById(R.id.tv_ProcedureDetail);
 
         TextView tvIngredientsList = view.findViewById(R.id.tv_IngredientList);

@@ -56,7 +56,7 @@ public class ViewPagerFragment extends Fragment implements RecyclerViewClickList
         View view =inflater.inflate(R.layout.fragment_view_pager,container,false);
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
 
-        CustomListAdapter adapter = new CustomListAdapter(getActivity(),getListToDisplay(page),this);
+        CustomListAdapter adapter = new CustomListAdapter(getListToDisplay(page),this);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         recyclerView.setAdapter(adapter);

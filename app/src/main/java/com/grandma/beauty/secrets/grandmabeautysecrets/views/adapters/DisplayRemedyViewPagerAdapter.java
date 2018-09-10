@@ -14,8 +14,8 @@ import java.util.List;
 
 public class DisplayRemedyViewPagerAdapter extends FragmentStatePagerAdapter
 {
-    int bodyIndex;
-    List<Remedy> remedyList;
+    private int bodyIndex;
+    private List<Remedy> remedyList;
     public DisplayRemedyViewPagerAdapter(FragmentManager fm, int bodyIndex, List<Remedy> remedyList) {
         super(fm);
         this.bodyIndex = bodyIndex;
@@ -33,12 +33,12 @@ public class DisplayRemedyViewPagerAdapter extends FragmentStatePagerAdapter
     }
 
     @Override
-    public Object instantiateItem(ViewGroup container, int position) {
+    public Object instantiateItem(@NonNull ViewGroup container, int position) {
         return super.instantiateItem(container, position);
     }
 
     @Override
-    public int getItemPosition(@NonNull Object object) {
+    public int getItemPosition(Object object) {
         return POSITION_NONE;
     }
 }

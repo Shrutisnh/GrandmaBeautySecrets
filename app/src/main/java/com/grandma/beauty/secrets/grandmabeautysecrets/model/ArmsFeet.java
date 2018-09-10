@@ -7,7 +7,7 @@ import java.util.List;
 public class ArmsFeet {
 
     @SerializedName("data")
-    public List<Data> data;
+    private List<Data> data;
 
     public List<Data> getData() {
         return data;

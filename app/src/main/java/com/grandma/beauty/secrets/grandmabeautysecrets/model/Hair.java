@@ -8,7 +8,7 @@ import java.util.List;
 public class Hair{
 
     @SerializedName("data")
-    public List<Data> data;
+    private List<Data> data;
 
     public List<Data> getData() {
         return data;

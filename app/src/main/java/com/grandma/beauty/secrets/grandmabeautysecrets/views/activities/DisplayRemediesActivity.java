@@ -6,12 +6,7 @@ import android.support.v4.app.FragmentTransaction;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.constants.AppConstants;
-import com.grandma.beauty.secrets.grandmabeautysecrets.model.ArmsFeet;
-import com.grandma.beauty.secrets.grandmabeautysecrets.model.Eyes;
-import com.grandma.beauty.secrets.grandmabeautysecrets.model.Face;
-import com.grandma.beauty.secrets.grandmabeautysecrets.model.Hair;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Remedy;
-import com.grandma.beauty.secrets.grandmabeautysecrets.model.Skin;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.BasePresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.DisplayRemediesPresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.util.JSONUtil;
@@ -43,35 +38,15 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
         DisplayRemedyViewPagerFragment displayRemedyViewPagerFragment = DisplayRemedyViewPagerFragment.newInstance(bodyIndex, issueIndex);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.add(R.id.frame_container, displayRemedyViewPagerFragment).commit();
-
     }
 
     @Override
     public List<Remedy> getRemedyList(int bodyIndex, int issueIndex) {
-        List<Remedy> remedyList=null;
-        remedyList = new JSONUtil().getInstance(this).getRemedyList(bodyIndex,issueIndex);
-        return remedyList;
+        return new JSONUtil().getInstance(this).getRemedyList(bodyIndex,issueIndex);
     }
     @Override
     public Object getBodyIssueRemedyObject(int bodyIssue){
-        switch (bodyIssue){
-            case 0 :
-                Eyes eyes = (Eyes) new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
-                return eyes;
-            case 1:
-                Face face = (Face)new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
-                return face;
-            case 2:
-                Hair hair = (Hair)new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
-                return hair;
-            case 3:
-                ArmsFeet armsFeet = (ArmsFeet)new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
-                return armsFeet;
-            case 4:
-                Skin skin = (Skin)new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
-                return skin;
-        }
-        return null;
+        return new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
     }
 
     @Override

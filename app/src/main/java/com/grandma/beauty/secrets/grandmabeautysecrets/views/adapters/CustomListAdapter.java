@@ -1,7 +1,6 @@
 package com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters;
 
 
-import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -13,15 +12,14 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.interfaces.RecyclerViewClickListener;
 
 public class CustomListAdapter extends RecyclerView.Adapter<CustomListAdapter.CustomListViewHolder> {
-    Context context;
-    String[] list;
-    RecyclerViewClickListener recyclerViewClickListener;
+    private String[] list;
+    private RecyclerViewClickListener recyclerViewClickListener;
 
 
     public  class CustomListViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private TextView textView;
 
-        public CustomListViewHolder(View view ) {
+         CustomListViewHolder(View view ) {
             super(view);
             this.textView = view.findViewById(R.id.tvIssue);
             view.setOnClickListener(this);
@@ -33,8 +31,7 @@ public class CustomListAdapter extends RecyclerView.Adapter<CustomListAdapter.Cu
         }
     }
 
-    public CustomListAdapter(Context context, String[] list, RecyclerViewClickListener recyclerViewClickListener) {
-        this.context = context;
+    public CustomListAdapter(String[] list, RecyclerViewClickListener recyclerViewClickListener) {
         this.list = list;
         this.recyclerViewClickListener = recyclerViewClickListener;
     }
@@ -48,7 +45,7 @@ public class CustomListAdapter extends RecyclerView.Adapter<CustomListAdapter.Cu
     }
 
     @Override
-    public void onBindViewHolder(CustomListViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull CustomListViewHolder holder, int position) {
         holder.textView.setText(list[position]);
     }
 

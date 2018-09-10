@@ -8,9 +8,9 @@ import java.util.List;
 
 public class Remedy implements Serializable{
     @SerializedName("Procedure")
-    public String procedure;
+    private String procedure;
     @SerializedName("Ingredients")
-    public List<String> ingredients;
+    private List<String> ingredients;
 
     public String getProcedure() {
         return procedure;

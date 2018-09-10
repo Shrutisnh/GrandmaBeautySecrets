@@ -9,6 +9,7 @@
     <string name="Hair">Hair</string>
     <string name="Arms_Legs">Arms &amp; Feet</string>
     <string name="Skin">Skin</string>
+    <string name ="Tip">Tip %s/%s</string>
 
     <!--Eyes-->
     <string-array name="EyesIssues">

@@ -7,10 +7,10 @@ import java.util.List;
 public class Data{
 
     @SerializedName("Issue")
-    public String issue;
+    private String issue;
 
     @SerializedName("Remedy")
-    public List<Remedy> remedies;
+    private List<Remedy> remedies;
 
     public String getIssue() {
         return issue;
