@@ -1,4 +1,0 @@
-#Wed Aug 22 16:02:16 IST 2018
-base.0=C\:\\Users\\834963\\Shruti\\Android Programs\\GrandmaBeautySecrets\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex

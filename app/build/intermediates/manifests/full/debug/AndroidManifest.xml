@@ -15,8 +15,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/SplashTheme" >
-        <activity android:name="com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.SplashActivity" >
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.SplashActivity"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,10 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.HomeScreenActivity" />
-        <activity
-            android:name="com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/SplashTheme" />
+        <activity android:name="com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.DisplayRemediesActivity" />
     </application>
 
 </manifest>

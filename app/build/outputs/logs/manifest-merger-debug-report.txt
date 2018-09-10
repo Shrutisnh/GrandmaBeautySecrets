@@ -1,46 +1,46 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f24a0cfa7140d60ef69161136fbaa77b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\6a00eeb9e3f16125977914ccc72015ac\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\96b77f0ac208186b2aee15c132c20877\AndroidManifest.xml:2:1-11:12
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\b3db573f802aec15a02a04cbb9093b82\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\7e8d55b6be26d960a19e2985417850e6\AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\b3db573f802aec15a02a04cbb9093b82\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\27114e884845b3362df89d35fa885447\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c403a68181fef144640580bc0b93f07b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\560b329f3e73c90bd19747ba84b16804\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\164c69359f4235c73f1a748f782c8e4e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5c9e6b1cd7206f0d9c8427ba9638157c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\485cb76163404ebffaf95317b52309bc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\20d681eacf481982ec1602b26e36823a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8ffdc9f335477cc723eeff452a4e85e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\20d681eacf481982ec1602b26e36823a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b0cdc067526f656840a3e704fdd398af\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cc81b31b62cafe0ada700eaf4c8d4f7c\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\91278a187ea89fc58b4fef26404e3edb\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\091defbf75b5e767bf354125d6d60c07\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2bf22864218f43db1b2b5e192c4847de\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:3:5-62
 		INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\96b77f0ac208186b2aee15c132c20877\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\96b77f0ac208186b2aee15c132c20877\AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -54,33 +54,31 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\13
 	android:allowBackup
 		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.SplashActivity
-ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:12:9-18:20
-	android:name
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:12:19-66
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:13:13-17:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:14:17-69
-	android:name
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:14:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:16:17-77
-	android:name
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:16:27-74
-activity#com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.HomeScreenActivity
-ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:19:9-73
-	android:name
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:19:19-70
-activity#com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.Main2Activity
-ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:20:9-23:59
-	android:label
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:22:13-57
+ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:12:9-20:20
 	android:theme
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:23:13-47
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:14:13-47
 	android:name
-		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:21:13-59
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:13:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.HomeScreenActivity
+ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:21:9-73
+	android:name
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:21:19-70
+activity#com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.DisplayRemediesActivity
+ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:22:9-77
+	android:name
+		ADDED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml:22:19-75
 uses-sdk
 INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\1305254.KIITUNIVERSITY\AndroidStudioProjects\GrandmaBeautySecrets\app\src\main\AndroidManifest.xml
@@ -91,10 +89,10 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\1305254.KIITUNIVE
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\6a00eeb9e3f16125977914ccc72015ac\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\96b77f0ac208186b2aee15c132c20877\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\96b77f0ac208186b2aee15c132c20877\AndroidManifest.xml:5:5-7:41
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\b3db573f802aec15a02a04cbb9093b82\AndroidManifest.xml:7:5-9:41
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\b3db573f802aec15a02a04cbb9093b82\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\7e8d55b6be26d960a19e2985417850e6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\7e8d55b6be26d960a19e2985417850e6\AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\b3db573f802aec15a02a04cbb9093b82\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\b3db573f802aec15a02a04cbb9093b82\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\27114e884845b3362df89d35fa885447\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\27114e884845b3362df89d35fa885447\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c403a68181fef144640580bc0b93f07b\AndroidManifest.xml:20:5-44
@@ -107,10 +105,10 @@ MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\1305254.KII
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5c9e6b1cd7206f0d9c8427ba9638157c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\485cb76163404ebffaf95317b52309bc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\485cb76163404ebffaf95317b52309bc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\20d681eacf481982ec1602b26e36823a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\20d681eacf481982ec1602b26e36823a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8ffdc9f335477cc723eeff452a4e85e5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8ffdc9f335477cc723eeff452a4e85e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\20d681eacf481982ec1602b26e36823a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\20d681eacf481982ec1602b26e36823a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b0cdc067526f656840a3e704fdd398af\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b0cdc067526f656840a3e704fdd398af\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\1305254.KIITUNIVERSITY\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cc81b31b62cafe0ada700eaf4c8d4f7c\AndroidManifest.xml:20:5-44
