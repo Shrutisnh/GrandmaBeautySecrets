@@ -1,777 +1,771 @@
-{"Hair":{
-  "data":[
-    {
-      "Issue":"Split Ends",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Rosewater"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cucumber"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Turmeric powder",
-            "Pineapple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Tomato juice",
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold Water or milk"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Crushed mint"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Orange juice",
-            "Glycerin"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold milk soaked cotton balls"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Coconut oil"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Fenugreek seeds",
-            "Water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 teaspoons of Buttermilk",
-            "1/4 teaspoon of turmeric powder"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 Chamomile tea bags",
-            "Hot water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Slices of avocado"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 drops of jasmine essential oil",
-            "2 tablespoons of either olive, almond or vegetable oil"
-          ],
-          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
-        }
-      ]
-    },
-    {
-      "Issue":"Dandruff",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Rosewater"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cucumber"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Turmeric powder",
-            "Pineapple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Tomato juice",
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Orange juice",
-            "Glycerin"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold milk soaked cotton balls"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Coconut oil"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Fenugreek seeds",
-            "Water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 teaspoons of Buttermilk",
-            "1/4 teaspoon of turmeric powder"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 Chamomile tea bags",
-            "Hot water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Slices of avocado"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 drops of jasmine essential oil",
-            "2 tablespoons of either olive, almond or vegetable oil"
-          ],
-          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
-        }
-      ]
-    },
-    {
-      "Issue":"Grey Hair",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Rosewater"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cucumber"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Turmeric powder",
-            "Pineapple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Tomato juice",
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold Water or milk"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Crushed mint"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Orange juice",
-            "Glycerin"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold milk soaked cotton balls"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Coconut oil"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Fenugreek seeds",
-            "Water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 teaspoons of Buttermilk",
-            "1/4 teaspoon of turmeric powder"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 Chamomile tea bags",
-            "Hot water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Slices of avocado"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 drops of jasmine essential oil",
-            "2 tablespoons of either olive, almond or vegetable oil"
-          ],
-          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
-        }
-      ]
-    },
-    {
-      "Issue":"Natural Hair Conditioner",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Rosewater"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cucumber"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Turmeric powder",
-            "Pineapple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Tomato juice",
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold Water or milk"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Crushed mint"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Orange juice",
-            "Glycerin"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold milk soaked cotton balls"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Coconut oil"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Fenugreek seeds",
-            "Water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 teaspoons of Buttermilk",
-            "1/4 teaspoon of turmeric powder"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 Chamomile tea bags",
-            "Hot water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Slices of avocado"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 drops of jasmine essential oil",
-            "2 tablespoons of either olive, almond or vegetable oil"
-          ],
-          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
-        }
-      ]
-    },
-    {
-      "Issue":"Loss Of Hair",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Rosewater"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cucumber"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Turmeric powder",
-            "Pineapple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Tomato juice",
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold Water or milk"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Crushed mint"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Orange juice",
-            "Glycerin"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold milk soaked cotton balls"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Coconut oil"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Fenugreek seeds",
-            "Water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 teaspoons of Buttermilk",
-            "1/4 teaspoon of turmeric powder"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 Chamomile tea bags",
-            "Hot water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Slices of avocado"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 drops of jasmine essential oil",
-            "2 tablespoons of either olive, almond or vegetable oil"
-          ],
-          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
-        }
-      ]
-    },
-    {
-      "Issue":"Head Lice",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Rosewater"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cucumber"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Turmeric powder",
-            "Pineapple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Tomato juice",
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold Water or milk"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Crushed mint"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Orange juice",
-            "Glycerin"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold milk soaked cotton balls"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Coconut oil"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Fenugreek seeds",
-            "Water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 teaspoons of Buttermilk",
-            "1/4 teaspoon of turmeric powder"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 Chamomile tea bags",
-            "Hot water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Slices of avocado"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 drops of jasmine essential oil",
-            "2 tablespoons of either olive, almond or vegetable oil"
-          ],
-          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
-        }
-      ]
-    }
-  ]}}
+{
+  "Hair": {
+    "data": [
+      {
+        "Issue": "Split Ends",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "Egg mixed with olive oil/almond oil and honey",
+              "Or beaten egg with a spoon of water",
+              "Or orange juice and a banana in two Eggs"
+            ],
+            "Procedure": "You can apply egg mixed with olive oil/almond oil and honey as a hair mask, and wash off after 30-45 minutes.\n\nA beaten egg with a spoon of water can also be applied as a shampoo.\n\nYou can also pour orange juice and a banana in two eggs and apply as a hair mask.\n\nKeep it for 30 minutes and wash off.\n\nThese remedies are really effective in treating your hair from the problem of split ends."
+          },
+          {
+            "Ingredients": [
+              "Ripe papaya",
+              "Yogurt"
+            ],
+            "Procedure": "Take a ripe papaya and half cup of yogurt.\n\nBlend them to get a pulpy paste.\n\nYou can apply this as a hair mask for about 30 minutes and wash off.\n\nThis will give your hair sheen and solace from split ends."
+          },
+          {
+            "Ingredients": [
+              "Castor oil",
+              "Mustard oil",
+              "Olive oil"
+            ],
+            "Procedure": "Massage your hair with castor oil, mixed with mustard and olive oil, to get split ends free hair.\n\nKeep it for 30 minutes, and wrap with a towel or shower cap.\n\nAfterwards, rinse it off with shampoo."
+          },
+          {
+            "Ingredients": [
+              "A tbsp of cream",
+              "Half cup of milk"
+            ],
+            "Procedure": "Mix a tbsp of cream with half cup of milk.\n\nWhisk it thoroughly.\n\nApply this mixture to your hair for 15 minutes and wash it off."
+          },
+          {
+            "Ingredients": [
+              "Homey",
+              "Some curd"
+            ],
+            "Procedure": "Honey is a great treatment for split ends.\n\nMix a spoon full of honey and some curd.\n\nGive a massage to your hair with this mix, especially at the hair ends.\n\nLet this mixture stay on your strands for 20 minutes and rinse it out afterwards.\n\nThis mixture will not only relieve you from split ends, but also will confer your hair with a gorgeous lusture."
+          },
+          {
+            "Ingredients": [
+              "Beer"
+            ],
+            "Procedure": "Beer is actually good for your hair and is considered as a great conditioner.\n\nRinse your hair with beer after shampooing them and you will be really amazed to see the shine and gleam into your hair.\n\nRinsing your hair every time with beer, whenever you shampoo, will help your hair in trouncing the problem of split ends."
+          },
+          {
+            "Ingredients": [
+              "Avocado"
+            ],
+            "Procedure": "Mash an avocado and massage it in your damp hair, coating the split ends.\n\nRinse it out after 30 minutes.\n\nIf required, some olive oil can be used into it."
+          },
+          {
+            "Ingredients": [
+              "Warm olive oil"
+            ],
+            "Procedure": "Give your hair a relaxing and effective spa with warm olive oil.\n\nMassage your hair gently with olive oil.\n\nYou can either keep it overnight or wash it after an hour."
+          },
+          {
+            "Ingredients": [
+              "Coconut oil"
+            ],
+            "Procedure": "Coconut oil is again a great therapy to combat with almost all the hair problems.\n\nMassage your hair with warm coconut oil to treat split ends,dullness and hair fall."
+          },
+          {
+            "Ingredients": [
+              "Chamomile tea"
+            ],
+            "Procedure": "Steep a few chamomile tea bags in boiling water.\n\nLet it cool.\n\nRinse your hair with this solution to liberate your hair from split ends. "
+          },
+          {
+            "Ingredients": [
+              "Shea butter or Cocoa butter"
+            ],
+            "Procedure": "Apply this effective butter on your hair after washing them.\n\nMassage your damp hair with butter and dry them naturally.\n\nWithin a few days, you will se that you are getting relief from frizzy hair and split ends."
+          },
+          {
+            "Ingredients": [
+              "Argon oil"
+            ],
+            "Procedure": "Massaging your hair with argon oil can solace you with a variety of hair problems, like dry hair, split ends, dullness and frizzy hair."
+          },
+          {
+            "Ingredients": [
+              "Clarified butter or ghee"
+            ],
+            "Procedure": "Clarified butter or ghee can give extremely healthy and nourished hair.\n\nMassage your hair with warm clarified butter and keep it overnight.\n\nRinse it out properly the next morning with lukewarm water."
+          },
+          {
+            "Ingredients": [
+              "1/2 cup of black lentil",
+              "Fenugreek seeds"
+            ],
+            "Procedure": "Grind black lentil to get a smooth powder.\n\nAdd a spoon full of fenugreek seeds.\n\nNow, mix this with a cup of yogurt.\n\nApply this to your hair for two hours and wash it off with a mild shampoo afterwards."
+          },
+          {
+            "Ingredients": [
+              "Jojoba oil"
+            ],
+            "Procedure": "Jojoba oil can be mixed with your shampoo or conditioner while washing your hair to get soft and nourished hair.\n\nThis remedy is also great for curing split ends."
+          },
+          {
+            "Ingredients": [
+              "Mayonnnaise"
+            ],
+            "Procedure": "Simply apply mayonnaise on your hair twice a week, especially on split ends."
+          },
+          {
+            "Ingredients": [
+              "Rip banana"
+            ],
+            "Procedure": "Mash a rip banana.\n\nAdd an egg, some honey and a little milk into mashed banana and apply it as a hair mask.\n\nWash and rinse after half an hour."
+          },
+          {
+            "Ingredients": [
+              "Ground fenugreek seed",
+              "Curd"
+            ],
+            "Procedure": "Make a fine paste of ground fenugreek seeds and curd.\n\nUse this as a hair pack.\n\nWash it after two hours to get silky smooth hair.\n\nThis natural home remedy will also treat your split ends."
+          }
+        ]
+      },
+      {
+        "Issue": "Dandruff",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "Rosewater"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cucumber"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Almond oil"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Lemon juice"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Potato"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Turmeric powder",
+              "Pineapple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Tomato juice",
+              "Lemon juice"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Orange juice",
+              "Glycerin"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold milk soaked cotton balls"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Coconut oil"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Fenugreek seeds",
+              "Water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 teaspoons of Buttermilk",
+              "1/4 teaspoon of turmeric powder"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 Chamomile tea bags",
+              "Hot water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Slices of avocado"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 drops of jasmine essential oil",
+              "2 tablespoons of either olive, almond or vegetable oil"
+            ],
+            "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
+          }
+        ]
+      },
+      {
+        "Issue": "Grey Hair",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "Rosewater"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cucumber"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Almond oil"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Lemon juice"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Potato"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Turmeric powder",
+              "Pineapple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Tomato juice",
+              "Lemon juice"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold Water or milk"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Crushed mint"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Orange juice",
+              "Glycerin"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold milk soaked cotton balls"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Coconut oil"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Fenugreek seeds",
+              "Water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 teaspoons of Buttermilk",
+              "1/4 teaspoon of turmeric powder"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 Chamomile tea bags",
+              "Hot water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Slices of avocado"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 drops of jasmine essential oil",
+              "2 tablespoons of either olive, almond or vegetable oil"
+            ],
+            "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
+          }
+        ]
+      },
+      {
+        "Issue": "Natural Hair Conditioner",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "Rosewater"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cucumber"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Almond oil"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Lemon juice"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Potato"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Turmeric powder",
+              "Pineapple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Tomato juice",
+              "Lemon juice"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold Water or milk"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Crushed mint"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Orange juice",
+              "Glycerin"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold milk soaked cotton balls"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Coconut oil"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Fenugreek seeds",
+              "Water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 teaspoons of Buttermilk",
+              "1/4 teaspoon of turmeric powder"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 Chamomile tea bags",
+              "Hot water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Slices of avocado"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 drops of jasmine essential oil",
+              "2 tablespoons of either olive, almond or vegetable oil"
+            ],
+            "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
+          }
+        ]
+      },
+      {
+        "Issue": "Loss Of Hair",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "Rosewater"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cucumber"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Almond oil"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Lemon juice"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Potato"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Turmeric powder",
+              "Pineapple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Tomato juice",
+              "Lemon juice"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold Water or milk"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Crushed mint"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Orange juice",
+              "Glycerin"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold milk soaked cotton balls"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Coconut oil"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Fenugreek seeds",
+              "Water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 teaspoons of Buttermilk",
+              "1/4 teaspoon of turmeric powder"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 Chamomile tea bags",
+              "Hot water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Slices of avocado"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 drops of jasmine essential oil",
+              "2 tablespoons of either olive, almond or vegetable oil"
+            ],
+            "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
+          }
+        ]
+      },
+      {
+        "Issue": "Head Lice",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "Garlic cloves",
+              "Lime Juice or coconut Oil"
+            ],
+            "Procedure": "Grind garlic cloves and mix with either lime juice or coconut oil.\n\nApply to the scalp.\n\nLeave for 30 minutes.\n\nWash hair with hot water.\n\nRepeat regularly for best results."
+          },
+          {
+            "Ingredients": [
+              "Olive Oil"
+            ],
+            "Procedure": "Apply olive oil to the scalp before bed.\n\nCover with a shower cap or towel and leave overnight.\n\nIn the morning, comb hair to remove dead lice.\n\nWash hair with herbal shampoo.\n\nRepeat regularly for best results."
+          },
+          {
+            "Ingredients": [
+              "Neem leaves"
+            ],
+            "Procedure": "Boil neem leaves in water for 10 minutes.\n\nUse the water to rinse hair.\n\nRepeat twice weakly to get rid of head lice."
+          },
+          {
+            "Ingredients": [
+              "Salt",
+              "Vinegar"
+            ],
+            "Procedure": "Mix salt and vinegar in an empty spray bottle.\n\nSpritz entire head until wet.\n\nCover with a shower cap or towel and leave for 2 hours.\n\nWash hair with shampoo and conditioner.\n\nRepeat once every three days for best results."
+          },
+          {
+            "Ingredients": [
+              "White vinegar"
+            ],
+            "Procedure": "Mix white vinegar with water.\n\nApply to the scalp.\n\nCover with a shower cap or towel and leave for 2-3 hours.\n\nDip comb in white vinegar and comb to remove dead lice.\n\nRepeat regularly for best results..Note:Vinegar can be applied without diluting it first for stronger effects."
+          },
+          {
+            "Ingredients": [
+              "Mayonnaise"
+            ],
+            "Procedure": "Apply mayonnaise to the scalp.\n\nCover with a shower cap or towel and leave overnight.\n\nIn the morning,shampoo hair.\n\nComb hair to remove dead lice.\n\nRepeat daily for a week for best results."
+          },
+          {
+            "Ingredients": [
+              "Tea tree oil",
+              "Olive oil"
+            ],
+            "Procedure": "Mix tea tree oil and olive oil.\n\nMassage into the scalp.\n\nLeave for 30-60 minutes.\n\nWash hair twice to completely remove the oil.\n\nSecond time rinse with vinegar to treat the problem.\n\nComb hair to remove dead"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold Water or milk"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Ripe apple"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Crushed mint"
+            ],
+            "Procedure": "Blh blah blah"
+          },
+          {
+            "Ingredients": [
+              "Orange juice",
+              "Glycerin"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Cold milk soaked cotton balls"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Coconut oil"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Fenugreek seeds",
+              "Water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 teaspoons of Buttermilk",
+              "1/4 teaspoon of turmeric powder"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 Chamomile tea bags",
+              "Hot water"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "Slices of avocado"
+            ],
+            "Procedure": "Blah blah blah"
+          },
+          {
+            "Ingredients": [
+              "2 drops of jasmine essential oil",
+              "2 tablespoons of either olive, almond or vegetable oil"
+            ],
+            "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
+          }
+        ]
+      }
+    ]
+  }
+}

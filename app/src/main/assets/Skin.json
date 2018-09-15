@@ -1,314 +1,338 @@
-{"Skin":{
-  "data":[
-    {
-      "Issue":"Prickly Heat",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Rosewater"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cucumber"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Turmeric powder",
-            "Pineapple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Tomato juice",
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold Water or milk"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Crushed mint"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Orange juice",
-            "Glycerin"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold milk soaked cotton balls"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Coconut oil"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Fenugreek seeds",
-            "Water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 teaspoons of Buttermilk",
-            "1/4 teaspoon of turmeric powder"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 Chamomile tea bags",
-            "Hot water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Slices of avocado"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 drops of jasmine essential oil",
-            "2 tablespoons of either olive, almond or vegetable oil"
-          ],
-          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
-        }
-      ]
-    },
-    {
-      "Issue":"Stretch Marks",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Rosewater"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cucumber"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Almond oil"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Turmeric powder",
-            "Pineapple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Tomato juice",
-            "Lemon juice"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Ripe apple"
-          ],
-          "Procedure": "Blh blah blah"
-        },
-        {
-          "Ingredients": [
-            "Orange juice",
-            "Glycerin"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 used Green or Black teabags placed in Refrigerator for 30-40 minutes"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Cold milk soaked cotton balls"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Coconut oil"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Fenugreek seeds",
-            "Water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 teaspoons of Buttermilk",
-            "1/4 teaspoon of turmeric powder"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 Chamomile tea bags",
-            "Hot water"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "Slices of avocado"
-          ],
-          "Procedure": "Blah blah blah"
-        },
-        {
-          "Ingredients": [
-            "2 drops of jasmine essential oil",
-            "2 tablespoons of either olive, almond or vegetable oil"
-          ],
-          "Procedure": "Mix 2 drops of jasmine essential oil and 2 tablespoons of either olive, almond or vegetable oil.\nApply to the affected area and gently massage for 3-4 minutes.\nLeave for 20-30 minutes and rinse with lukewarm water.\nRepeat regularly until results are visible"
-        }
-      ]
-    },
-    {
-      "Issue":"Warts",
-      "Remedy":[
-        {
-          "Ingredients": [
-            "Apple cider vinegar"
-          ],
-          "Procedure": "Soak a cotton ball or a piece of cotton fabric in apple cider vinegar.\n\nAllow it to saturate, and then gently press out the excess liquid so that it is not dripping all over when you apply it.\n\nPlace it over your wart, and secure it with a strip of gauze or cloth.\n\nDo this every night and remove during the day-you can leave it on during the day as well! It is not instant, but the wart should die and come off within 1-2 weeks. "
-        },
-        {
-          "Ingredients": [
-            "Milkweed leaves"
-          ],
-          "Procedure": "Break a milkweed leaves off of the plant and squeeze the bottom of the stem to release more of the sap.\n\nApply enough sap to cover your wart.\n\nLeave on and reapply as needed.\n\nIf you develop any rash or skin irritation,stop and rinse off imediately."
-        },
-        {
-          "Ingredients": [
-            "Banana peel"
-          ],
-          "Procedure": "Twice a day, scrape the whitish musk off the inside of banana peel, and apply it to your wart.\n\nWash your hands well afterwards to keep the warts from spreading.\n\nRepeat until the wart is gone."
-        },
-        {
-          "Ingredients": [
-            "Vitamin C tablet","Lemon juice or Water"
-          ],
-          "Procedure": "Crush up 1 vitamin C tablet, and add enough lemon juice or water to make a paste.\n\nCover this with a bandage and reapply daily."
-        },
-        {
-          "Ingredients": [
-            "1/4 Cup or so of fresh, well-rinsed, basil leaves"
-          ],
-          "Procedure": "Crush leaves until they are mushy and juicy.Apply to the wart, cover with a bandage or clean cloth, and reapply daily until the wart is gone, about 1-2 weeks."
-        },
-        {
-          "Ingredients": [
-            "Dandelion"
-          ],
-          "Procedure": "Pull the head off of a dandelion and rub the milk onto the wart, and cover it with a bandage.\n\nDo this twice daily until the wart is gone."
-        },
-        {
-          "Ingredients": [
-            "Honey"
-          ],
-          "Procedure": "File away the wart if you can, and then cover it thoroughly in a thick layer of honey and wrap a piece of cloth around it.\n\nLeave it like this for 24 hours, changing the bandage and reapplying the honey daily."
-        },
-        {
-          "Ingredients": [
-            "Potato"
-          ],
-          "Procedure": "Peel a potato and cut a round slice off of it.\n\nRub the slice on your wart 3 times a day, and if you find yourself resting, lay the peeled skin over the wart for as long as possible."
-        },
-        {
-          "Ingredients": [
-            "Pure pineapple juice"
-          ],
-          "Procedure": "2-3 times a day, soak your wart in pure pineapple juice for 3-5 minutes.\n\nAfterwards, pat the area completely dry.\n\nFilling before doing this might make the area a little too sensitive, in which case, steer clear of it."
-        },
-        {
-          "Ingredients": [
-            "Ice","Sharp needle"
-          ],
-          "Procedure": "Ice the wart until the area is good and numb and then hold a sharp needle over a flame to sterilize it.\n\nPoke it well into the wart, but don't hold it there.\n\nPoke the wart all over, and discard of the needle and wash your hands.\n\nNow that your body is alerted, it will attack the virus that is causing the wart."
-        }
-      ]
-    }
-  ]}}
+{
+  "Skin": {
+    "data": [
+      {
+        "Issue": "Prickly Heat",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "Oatmeal"
+            ],
+            "Procedure": "Immerse yourself in an oatmeal bath for 15-20 minutes.\n\nYou can also scrub the affected areas gently while using oatmeal.\n\nIt will clear the blocked sweat ducts and will help exfoliate the skin.\n\nIt also relieves irritation and itching."
+          },
+          {
+            "Ingredients": [
+              "Chickpea flour"
+            ],
+            "Procedure": "Mix together chickpea flour and some water to make a thick paste.\n\nAppply it onto the affected site and leave it on for about 15 minutes.\n\nRinse off the paste with cool water."
+          },
+          {
+            "Ingredients": [
+              "1/4 Cup baking soda"
+            ],
+            "Procedure": "Put 1/4 cup baking soda in warm water.\n\nBathe your baby in this bathwater if he suffers from prickly heat.\n\nAvoid using soap."
+          },
+          {
+            "Ingredients": [
+              "Potato"
+            ],
+            "Procedure": "Cut some medium sized potatoes into a number of slices and then rub them on the affected portions."
+          },
+          {
+            "Ingredients": [
+              "Watermelon"
+            ],
+            "Procedure": "Take a watermelon, remove its seeds and make a pulp.\n\nApply this pulp onto the rashes for instant relief.\n\nAlternatively, you can also drink a glass of crushed watermelon juice."
+          },
+          {
+            "Ingredients": [
+              "Ice cubes"
+            ],
+            "Procedure": "Instead, you may even rub ice cubes on your skin to get relief from prickling sensation.\n\nShower or wash your skin frequently to get rid of prickly heat."
+          },
+          {
+            "Ingredients": [
+              "Fresh Ginger root"
+            ],
+            "Procedure": "Crush some fresh ginger root and allow it to boil in water.\n\nOnce the water cools down then wipe your skin with this solution using a soft cloth or sponge."
+          },
+          {
+            "Ingredients": [
+              "Herbal talcum powder"
+            ],
+            "Procedure": "You may use any herbal talcum powder and put it all over your body.\n\nAvoid using scented talcum powder as it may enhance the irritation."
+          },
+          {
+            "Ingredients": [
+              "Fresh lime",
+              "Water"
+            ],
+            "Procedure": "Squeeze fresh lime and mix it with some amount of water.\n\nTo sweeten the taste, you may add a tsp of honey.\n\nDrink 3 to 4 glasses on a daily basis."
+          },
+          {
+            "Ingredients": [
+              "Natural Honey"
+            ],
+            "Procedure": "Apply some natural honey directly into your skin.\n\nLeave it on for 15-20 minutes and subsequently, wash it off."
+          },
+          {
+            "Ingredients": [
+              "Cucumber"
+            ],
+            "Procedure": "Crush or squeeze the cucumber and dab the pulp on skin.\n\nLeave the pulp to stand for 30 minutes and then rinse it off."
+          },
+          {
+            "Ingredients": [
+              "Ripe papaya"
+            ],
+            "Procedure": "Take a ripe papaya and mash it.\n\nApply the pulp onto the affected skin and let it stand for 20 to 25 minutes.\n\nRinse it off with tap water.\n\nThis will relieve the ksin from burning sensation and reduce itching."
+          },
+          {
+            "Ingredients": [
+              "2 to 3 tablespoons of gram flour"
+            ],
+            "Procedure": "Take 2 to 3 tablespoons of gram flour and add some water to prepare a smooth paste,\n\nApply this paste onto the infected area.\n\nLet it dry for 10 to 15 minutes, and subsequently clean it with cold water.\n\nRepeat the same process once in a day for a week."
+          },
+          {
+            "Ingredients": [
+              "Corn starch or corn flour"
+            ],
+            "Procedure": "Mix together corn starch or corn flour with some water and prepare a smooth paste.\n\nApply this paste on the prickly heat and leave it on for about half an hour.\n\nAfter it gets dry, wash it off with cold water."
+          },
+          {
+            "Ingredients": [
+              "Few leaves of plum",
+              "Baking soda"
+            ],
+            "Procedure": "Mash a few leaves of plum and add baking soda to it.\n\nFor immediate relief, apply this on the affected area."
+          },
+          {
+            "Ingredients": [
+              "Dry barks of banyan tree"
+            ],
+            "Procedure": "Take some dry barks of Banyan tree and crush them into a fine powdered form.\n\nApply this powder on the rashes to fasten the healing."
+          },
+          {
+            "Ingredients": [
+            ],
+            "Procedure": "Yet another way for curing summer rash or prickly heat is consuming adequate amount of sugarcane juice aa it has cooling properties and that assist in cooling human body.\n\nDuring scorching, moist weather conditions, drink at least 1 glass of sugarcane juice."
+          },
+          {
+            "Ingredients": [
+              "Mint leaves"
+            ],
+            "Procedure": "Add some mint leaves in 2 cups of water and allow it to boil.\n\nStir it with a spoon for about 3 to 4 minutes.\n\nNow, strain it and throw the leaves away.\n\nAdd the sweetener as per your need."
+          },
+          {
+            "Ingredients": [
+              "4 to 5 pieces of Garcinia indica"
+            ],
+            "Procedure": "Soak 4 to 5 pieces of Garcinia indica in 2 glasses of water overnight.\n\nNext morning, filter the water and boil it down to half.\n\nLeave until it cools down.\n\nLater, add 3 teaspoons of water to it.\n\nDrink this solution."
+          },
+          {
+            "Ingredients": [
+              "Margosa oil",
+              "Camphor"
+            ],
+            "Procedure": "Add some margosa oil in Camphor to make a sticky paste.\n\nApply it on your rashes.\n\nIt gives cooling and refreshing feel.\n\nYou can also apply margosa leaf directly to the skin to calm burning sensation."
+          }
+        ]
+      },
+      {
+        "Issue": "Stretch Marks",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "1/2 Cup Cocoa Powder",
+              "1 Tablespoon wheat germ oil",
+              "2 Teaspoon beeswax",
+              "1 Tablespoon apricot oil",
+              "1 Tablespoon Vitamin E oil",
+              "1 Tablespoon Kernel oil"
+            ],
+            "Procedure": "Prepare the mixture of all the ingredients in the ratio mentioned.\n\nHeat it till the beeswax has melted completely.\n\nStore this mixture in a airtight container in your refrigerator.\n\nApply the mixture on the stretch marks and massage for a few minutes till it is well absorbed by the skin."
+          },
+          {
+            "Ingredients": [
+              "Shea butter"
+            ],
+            "Procedure": "Massage shea butter on the affected area and leave it on.\n\nReapply a few times during the day."
+          },
+          {
+            "Ingredients": [
+              "Fresh Aloe vera gel",
+              "Oil from Vitamin A and E capsules"
+            ],
+            "Procedure": "Mix the ingredients well.\n\nMassage this on the skin until it is fully absorbed.\n\nDo not rinse.\n\nYou can also apply only aloe vera gel.\n\nLeave it on for 15 minutes, and wash with lukewarm water."
+          },
+          {
+            "Ingredients": [
+              "Vicks vaporub"
+            ],
+            "Procedure": "Apply the vicks vaporub on the affected area and massage for a minute or two.\n\nCover the area with the help of cling wrap and leave this on overnight."
+          },
+          {
+            "Ingredients": [
+              "Castor oil"
+            ],
+            "Procedure": "Warm the castor oil slightly and massage it on the stretch marks for 15 to 20 minutes.\n\nDo this every day before going to bed."
+          },
+          {
+            "Ingredients": [
+              "Vitamin E capsule"
+            ],
+            "Procedure": "Cut open the Vitamin E capsule to extract the oil.\n\nApply this oil on your stretch marks and massage for a few minutes.\n\nLeave it on.\n\nYou can take a vitamin E oil capsule orally everyday."
+          },
+          {
+            "Ingredients": [
+              "Extra virgin oil"
+            ],
+            "Procedure": "Lightly warm the extra Virgin oil and massage on the affected area for a few minutes.\n\nDo not wash it off."
+          },
+          {
+            "Ingredients": [
+              "Coffee grounds",
+              "Aloe vera gel or olive oil(Optional)"
+            ],
+            "Procedure": "Mix coffee grounds with water to make a paste.\n\nScrub this well over the affected area.\n\nScrub in gentle, circular motions for three to five minutes.\n\nRinse with warm water and moisturize.\n\nYou can add a tablespoon or two of olive oil or aloe vera gel for better."
+          },
+          {
+            "Ingredients": [
+              "Almond oil",
+              "Few drops of your favourite Essential oil"
+            ],
+            "Procedure": "To the sweet almond oil, add a few drops of your favourite essential oil and mix well.\n\nHeat for a few seconds and apply all over the stretch marks.\n\nMassage in a circular motion for a couple of minutes and let it dry."
+          },
+          {
+            "Ingredients": [
+              "1 tablespoon raw sugar",
+              "Few drops of almond oil",
+              "Few drops of lemon juice"
+            ],
+            "Procedure": "Mix 1 tablespoon raw sugar, few drops of almond oil and few drops of lemon juice.\n\nMassage this onto your skin for 8-10 minutes.\n\nWash with warm water and moisturize as usual."
+          },
+          {
+            "Ingredients": [
+              "Baby oil"
+            ],
+            "Procedure": "After taking hot shower, pat your skin dry and apply baby oil on the affected area.\n\nMassage well so that the oil gets absorbed into the skin.\n\nLet the oil dry naturally.\n\nThis usually takes a few minutes."
+          },
+          {
+            "Ingredients": [
+              "Baking soda",
+              "Lemon juice"
+            ],
+            "Procedure": "Mix the baking soda with the lemon juice to form a paste.\n\nApply this on the affected area, wrap in cling, and let it sit for 20-30 minutes.\n\nRemove the wrap and wash with warm water."
+          },
+          {
+            "Ingredients": [
+              "4-5 Drops of tea tree oil",
+              "1 1/2 Tablespoons coconut oil or olive oil"
+            ],
+            "Procedure": "Mix 4-5 drops of tea tree oil and 1 1/2 tablespoons olive or coconut oil.\n\nMassage on the stretch marks.\n\nLet it get absorbed by the skin and leave it on."
+          },
+          {
+            "Ingredients": [
+              "Organic Argon oil"
+            ],
+            "Procedure": "Apply Organic Argon oil on the stretch marks and massage for a minute.\n\nThe oil gets easily absorbed into the skin.\n\nDo not wipe away or rinse."
+          },
+          {
+            "Ingredients": [
+              "Glycolic acid"
+            ],
+            "Procedure": "Apply glycolic acid on the affected area and let it dry.\n\nCaution: Do not go out in the sun after applying this as it can cause sunburns easily.\n\nIf you cannot avoid stepping out in the sunlight, protect your skin with light gear."
+          },
+          {
+            "Ingredients": [
+              "Lemon juice"
+            ],
+            "Procedure": "Apply lemon juice in circular motions on the stretch marks.\n\nLet it get absorbed by the skin for about 10 minutes.\n\nRinse with warm water.\n\nApply a moisturizer."
+          },
+          {
+            "Ingredients": [
+              "Apple cider vinegar"
+            ],
+            "Procedure": "Pour the apple cider vinegar into the spray bottle.\n\nSpray it over your stretch marks before going to bed and let it air-dry.\n\nWash thoroughly in the morning and moisturize the skin."
+          },
+          {
+            "Ingredients": [
+              "Turmeric",
+              "Cream or Yogurt"
+            ],
+            "Procedure": "Mix the turmeric with the cream or yogurt to form a paste.\n\nApply this on the stretch marks and let it dry for 10-15 minutes.\n\nRinse with warm water and moisturize."
+          },
+          {
+            "Ingredients": [
+              "Jojoba oil"
+            ],
+            "Procedure": "Take a few drops of jojoba oil and apply it on the stretch marks.\n\nMassage it for a few minutes and leave it on."
+          },
+          {
+            "Ingredients": [
+              "Rosehip oil"
+            ],
+            "Procedure": "Apply a few drops of Rosehip oil on the stretch marks in acircular motion.\n\nLeave it on."
+          }
+        ]
+      },
+      {
+        "Issue": "Warts",
+        "Remedy": [
+          {
+            "Ingredients": [
+              "Apple cider vinegar"
+            ],
+            "Procedure": "Soak a cotton ball or a piece of cotton fabric in apple cider vinegar.\n\nAllow it to saturate, and then gently press out the excess liquid so that it is not dripping all over when you apply it.\n\nPlace it over your wart, and secure it with a strip of gauze or cloth.\n\nDo this every night and remove during the day-you can leave it on during the day as well! It is not instant, but the wart should die and come off within 1-2 weeks. "
+          },
+          {
+            "Ingredients": [
+              "Milkweed leaves"
+            ],
+            "Procedure": "Break a milkweed leaves off of the plant and squeeze the bottom of the stem to release more of the sap.\n\nApply enough sap to cover your wart.\n\nLeave on and reapply as needed.\n\nIf you develop any rash or skin irritation,stop and rinse off imediately."
+          },
+          {
+            "Ingredients": [
+              "Banana peel"
+            ],
+            "Procedure": "Twice a day, scrape the whitish musk off the inside of banana peel, and apply it to your wart.\n\nWash your hands well afterwards to keep the warts from spreading.\n\nRepeat until the wart is gone."
+          },
+          {
+            "Ingredients": [
+              "Vitamin C tablet",
+              "Lemon juice or Water"
+            ],
+            "Procedure": "Crush up 1 vitamin C tablet, and add enough lemon juice or water to make a paste.\n\nCover this with a bandage and reapply daily."
+          },
+          {
+            "Ingredients": [
+              "1/4 Cup or so of fresh, well-rinsed, basil leaves"
+            ],
+            "Procedure": "Crush leaves until they are mushy and juicy.Apply to the wart, cover with a bandage or clean cloth, and reapply daily until the wart is gone, about 1-2 weeks."
+          },
+          {
+            "Ingredients": [
+              "Dandelion"
+            ],
+            "Procedure": "Pull the head off of a dandelion and rub the milk onto the wart, and cover it with a bandage.\n\nDo this twice daily until the wart is gone."
+          },
+          {
+            "Ingredients": [
+              "Honey"
+            ],
+            "Procedure": "File away the wart if you can, and then cover it thoroughly in a thick layer of honey and wrap a piece of cloth around it.\n\nLeave it like this for 24 hours, changing the bandage and reapplying the honey daily."
+          },
+          {
+            "Ingredients": [
+              "Potato"
+            ],
+            "Procedure": "Peel a potato and cut a round slice off of it.\n\nRub the slice on your wart 3 times a day, and if you find yourself resting, lay the peeled skin over the wart for as long as possible."
+          },
+          {
+            "Ingredients": [
+              "Pure pineapple juice"
+            ],
+            "Procedure": "2-3 times a day, soak your wart in pure pineapple juice for 3-5 minutes.\n\nAfterwards, pat the area completely dry.\n\nFilling before doing this might make the area a little too sensitive, in which case, steer clear of it."
+          },
+          {
+            "Ingredients": [
+              "Ice",
+              "Sharp needle"
+            ],
+            "Procedure": "Ice the wart until the area is good and numb and then hold a sharp needle over a flame to sterilize it.\n\nPoke it well into the wart, but don't hold it there.\n\nPoke the wart all over, and discard of the needle and wash your hands.\n\nNow that your body is alerted, it will attack the virus that is causing the wart."
+          }
+        ]
+      }
+    ]
+  }
+}
