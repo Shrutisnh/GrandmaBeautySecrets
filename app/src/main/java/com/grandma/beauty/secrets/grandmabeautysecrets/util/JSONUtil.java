@@ -21,7 +21,7 @@ public class JSONUtil {
     private static Context context;
     private static JSONUtil jsonUtil;
 
-    public  JSONUtil getInstance(Context context) {
+    public JSONUtil getInstance(Context context) {
         this.context = context;
         if (jsonUtil == null) {
             jsonUtil = new JSONUtil();
@@ -30,7 +30,7 @@ public class JSONUtil {
             return jsonUtil;
     }
 
-    private static   String getResponseData(int bodyIndex) {
+    private static String getResponseData(int bodyIndex) {
         String json = null;
         try {
             InputStream inputStream = context.getAssets().open(getFilename(bodyIndex));
@@ -47,7 +47,7 @@ public class JSONUtil {
     }
 
     private static String getFilename(int bodyIndex) {
-        String filename = null ;
+        String filename = null;
         switch (bodyIndex) {
             case 0:
                 filename = "Eyes.json";
@@ -69,7 +69,7 @@ public class JSONUtil {
 
     }
 
-    public  Object getResponseObject(int bodyIndex) {
+    public Object getResponseObject(int bodyIndex) {
         Gson gson = new GsonBuilder().create();
         ResponseData responseData = gson.fromJson(getResponseData(bodyIndex), ResponseData.class);
         switch (bodyIndex) {
@@ -87,46 +87,46 @@ public class JSONUtil {
         return null;
     }
 
-    public  List<Remedy> getRemedyList(int bodyIndex, int issueIndex) {
+    public List<Remedy> getRemedyList(int bodyIndex, int issueIndex) {
         Object object = getResponseObject(bodyIndex);
         List<Remedy> remedies = null;
         List<Data> data;
         switch (bodyIndex) {
             case 0: {
                 Eyes eyesObject = (Eyes) object;
-                if(eyesObject!=null && !eyesObject.getData().isEmpty()) {
+                if (eyesObject != null && !eyesObject.getData().isEmpty()) {
                     data = eyesObject.getData();
                     remedies = data.get(issueIndex).getRemedies();
                 }
                 return remedies;
             }
-            case 1:{
-                Face faceObject = (Face)object;
-                if(faceObject!=null && !faceObject.getData().isEmpty()) {
+            case 1: {
+                Face faceObject = (Face) object;
+                if (faceObject != null && !faceObject.getData().isEmpty()) {
                     data = faceObject.getData();
                     remedies = data.get(issueIndex).getRemedies();
                 }
                 return remedies;
             }
-            case 2:{
-                Hair hairObject = (Hair)object;
-                if(hairObject!=null && !hairObject.getData().isEmpty()) {
+            case 2: {
+                Hair hairObject = (Hair) object;
+                if (hairObject != null && !hairObject.getData().isEmpty()) {
                     data = hairObject.getData();
                     remedies = data.get(issueIndex).getRemedies();
                 }
                 return remedies;
             }
-            case 3:{
-                ArmsFeet armsFeetObject = (ArmsFeet)object;
-                if(armsFeetObject!=null && !armsFeetObject.getData().isEmpty()) {
+            case 3: {
+                ArmsFeet armsFeetObject = (ArmsFeet) object;
+                if (armsFeetObject != null && !armsFeetObject.getData().isEmpty()) {
                     data = armsFeetObject.getData();
                     remedies = data.get(issueIndex).getRemedies();
                 }
                 return remedies;
             }
-            case 4:{
-                Skin skinObject = (Skin)object;
-                if(skinObject!=null && !skinObject.getData().isEmpty()) {
+            case 4: {
+                Skin skinObject = (Skin) object;
+                if (skinObject != null && !skinObject.getData().isEmpty()) {
                     data = skinObject.getData();
                     remedies = data.get(issueIndex).getRemedies();
                 }
@@ -135,6 +135,30 @@ public class JSONUtil {
 
         }
         return null;
+    }
+
+    public String getIssueTitle(int bodyIndex, int issueIndex) {
+        Object object = getResponseObject(bodyIndex);
+        switch (bodyIndex) {
+            case 0:
+                Eyes eyes = (Eyes) object;
+                return eyes.getData().get(issueIndex).getIssue();
+            case 1:
+                Face face = (Face) object;
+                return face.getData().get(issueIndex).getIssue();
+            case 2:
+                Hair hair = (Hair) object;
+                return hair.getData().get(issueIndex).getIssue();
+            case 3:
+                ArmsFeet armsFeet = (ArmsFeet) object;
+                return armsFeet.getData().get(issueIndex).getIssue();
+            case 4:
+                Skin skin = (Skin) object;
+                return skin.getData().get(issueIndex).getIssue();
+
+        }
+        return null;
+
     }
 }
 

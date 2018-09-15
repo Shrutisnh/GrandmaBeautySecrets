@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".views.activities.HomeScreenActivity" />
-        <activity android:name=".views.activities.DisplayRemediesActivity"/>
+        <activity android:name=".views.activities.DisplayRemediesActivity"
+            android:theme="@style/NoActionBarTheme"/>
     </application>
 
 </manifest>

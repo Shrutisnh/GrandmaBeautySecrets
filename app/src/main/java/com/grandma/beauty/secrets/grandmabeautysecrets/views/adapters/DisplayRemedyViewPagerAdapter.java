@@ -38,7 +38,9 @@ public class DisplayRemedyViewPagerAdapter extends FragmentStatePagerAdapter
     }
 
     @Override
-    public int getItemPosition(Object object) {
+    public int getItemPosition(@NonNull Object object) {
         return POSITION_NONE;
     }
+
+
 }

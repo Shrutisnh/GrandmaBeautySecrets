@@ -1,5 +1,6 @@
 package com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments;
 
+import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -15,7 +16,7 @@ import com.grandma.beauty.secrets.grandmabeautysecrets.model.Remedy;
 
 import java.util.ArrayList;
 
-public class DisplayRemedyFragment extends Fragment {
+public class DisplayRemedyFragment extends Fragment{
 
     private static final String ARG_BODY_INDEX = "bodyIndex";
     private static final String ARG_ISSUE_INDEX = "issueIndex";
@@ -28,6 +29,8 @@ public class DisplayRemedyFragment extends Fragment {
     public DisplayRemedyFragment() {
 
     }
+
+
 
     public static DisplayRemedyFragment newInstance(int bodyIndex, int issueIndex, ArrayList<Remedy> remedyList) {
         DisplayRemedyFragment fragment = new DisplayRemedyFragment();
@@ -50,13 +53,17 @@ public class DisplayRemedyFragment extends Fragment {
     }
 
     @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+    }
+
+    @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.display_remedy_view, container, false);
         TextView tvTipTitle = view.findViewById(R.id.tv_tipTitle);
         TextView tvIngredientHeader = view.findViewById(R.id.tv_IngredientHeader);
         tvTipTitle.setText(String.format(getResources().getString(R.string.Tip), String.valueOf(issueIndex+1), String.valueOf(remedyList.size())));
         TextView tvProcedure = view.findViewById(R.id.tv_ProcedureDetail);
-
         TextView tvIngredientsList = view.findViewById(R.id.tv_IngredientList);
         StringBuilder stringBuilder = new StringBuilder();
         for (String ingredients: remedyList.get(issueIndex).getIngredients()) {
@@ -72,6 +79,7 @@ public class DisplayRemedyFragment extends Fragment {
         tvProcedure.setText(remedyList.get(issueIndex).getProcedure());
         return view;
     }
+
     @Override
     public void onDetach() {
         super.onDetach();

@@ -3,20 +3,25 @@ package com.grandma.beauty.secrets.grandmabeautysecrets.views.fragments;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.grandma.beauty.secrets.grandmabeautysecrets.R;
 import com.grandma.beauty.secrets.grandmabeautysecrets.model.Remedy;
+import com.grandma.beauty.secrets.grandmabeautysecrets.presenter.DisplayRemediesPresenter;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.activities.DisplayRemediesActivity;
 import com.grandma.beauty.secrets.grandmabeautysecrets.views.adapters.DisplayRemedyViewPagerAdapter;
 
 import java.util.List;
 
 
+@SuppressWarnings("ALL")
 public class DisplayRemedyViewPagerFragment extends Fragment {
 
 
@@ -24,6 +29,7 @@ public class DisplayRemedyViewPagerFragment extends Fragment {
     private static final String BODY_INDEX = "bodyIndex";
     private static final String ISSUE_INDEX = "issueIndex";
     private int bodyIndex,issueIndex;
+    DisplayRemediesPresenter displayRemediesPresenter;
 
     public DisplayRemedyViewPagerFragment() {
         // Required empty public constructor
@@ -48,9 +54,10 @@ public class DisplayRemedyViewPagerFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_display_remedy_view_pager,container,false);
+        setUpToolBar(view);
         ViewPager viewPager = view.findViewById(R.id.vp_displayRemedy);
         List<Remedy> remedyList=((DisplayRemediesActivity)mListener).getRemedyList(bodyIndex,issueIndex);
         DisplayRemedyViewPagerAdapter displayRemedyViewPagerAdapter = new DisplayRemedyViewPagerAdapter(getActivity().getSupportFragmentManager(),bodyIndex,remedyList);
@@ -58,10 +65,21 @@ public class DisplayRemedyViewPagerFragment extends Fragment {
         return view;
     }
 
+    public void setUpToolBar(View view){
+        Toolbar toolbar = view.findViewById(R.id.tb_Toolbar);
+        if ((getActivity()) != null) {
+            ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+        }
+        toolbar.setTitle(displayRemediesPresenter.getTitle(bodyIndex));
+        toolbar.setSubtitle(displayRemediesPresenter.getIssueTitle(bodyIndex,issueIndex));
+    }
+
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+        DisplayRemediesActivity displayRemediesActivity = (DisplayRemediesActivity)context;
+        displayRemediesPresenter = (DisplayRemediesPresenter)displayRemediesActivity.getPresenter();
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
@@ -75,6 +93,7 @@ public class DisplayRemedyViewPagerFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
+
 
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name

@@ -3,11 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".views.activities.DisplayRemediesActivity"
-   >
-   <FrameLayout
-       android:id="@+id/frame_container"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"/>
+    android:orientation="vertical"
+    tools:context=".views.activities.DisplayRemediesActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

@@ -44,10 +44,8 @@ public class DisplayRemediesActivity extends BaseActivity implements IDisplayRem
     public List<Remedy> getRemedyList(int bodyIndex, int issueIndex) {
         return new JSONUtil().getInstance(this).getRemedyList(bodyIndex,issueIndex);
     }
-    @Override
-    public Object getBodyIssueRemedyObject(int bodyIssue){
-        return new JSONUtil().getInstance(this).getResponseObject(bodyIssue);
-    }
+
+
 
     @Override
     public void onFragmentInteraction(Uri uri) {
