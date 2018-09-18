@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_height="match_parent"
     tools:context=".views.activities.HomeScreenActivity">
 
     <android.support.design.widget.TabLayout
@@ -14,36 +14,38 @@
         app:tabBackground="@drawable/tab_selector"
         app:tabSelectedTextColor="@android:color/black"
         app:tabTextAppearance="@style/TabLayoutTextAppearance"
-        app:tabTextColor="@android:color/black">
+        app:tabTextColor="@android:color/black"
+        app:tabGravity="fill"
+        >
 
         <android.support.design.widget.TabItem
             android:id="@+id/ti_eyes"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="@string/Eyes"/>
 
         <android.support.design.widget.TabItem
             android:id="@+id/ti_face"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="@string/Face"/>
 
         <android.support.design.widget.TabItem
             android:id="@+id/ti_hair"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="@string/Hair"/>
 
         <android.support.design.widget.TabItem
             android:id="@+id/ti_ArmsLegs"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:focusableInTouchMode="true"
             android:text="@string/Arms_Legs"/>
 
         <android.support.design.widget.TabItem
             android:id="@+id/ti_skin"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="@string/Skin"/>
 
